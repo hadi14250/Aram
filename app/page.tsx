@@ -111,12 +111,12 @@ export default function Home() {
             </div>
             <div className="relative h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/images/about-image.jpg"
+                src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
                 alt="About Aram Group"
                 fill
                 className="object-cover transform hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent"></div>
             </div>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group relative h-80 rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/images/project1.jpg"
+                src="/assets/porjects/aramprj1.png"
                 alt="Project 1"
                 fill
                 className="object-cover transform group-hover:scale-110 transition-transform duration-700"
@@ -232,7 +232,7 @@ export default function Home() {
             </div>
             <div className="group relative h-80 rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/images/project2.jpg"
+                src="/assets/porjects/aramprj8.png"
                 alt="Project 2"
                 fill
                 className="object-cover transform group-hover:scale-110 transition-transform duration-700"
@@ -246,7 +246,7 @@ export default function Home() {
             </div>
             <div className="group relative h-80 rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/images/project3.jpg"
+                src="/assets/porjects/aramprj9.png"
                 alt="Project 3"
                 fill
                 className="object-cover transform group-hover:scale-110 transition-transform duration-700"
