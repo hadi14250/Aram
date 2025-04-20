@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import HeroSlider from "./components/HeroSlider";
 
 export default function Home() {
   return (
@@ -36,23 +37,9 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-24 bg-gradient-to-r from-blue-900 to-blue-800 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10"></div>
-        <div className="absolute -right-20 -top-20 w-64 h-64 bg-blue-700 rounded-full opacity-20 blur-3xl"></div>
-        <div className="absolute -left-20 -bottom-20 w-64 h-64 bg-blue-600 rounded-full opacity-20 blur-3xl"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-            Building Excellence Across Sectors
-          </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-blue-100">
-            Operating since 2006, Aram Group has been a pioneer in construction, trading, and agricultural services
-          </p>
-          <Link 
-            href="/contact" 
-            className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            Get in Touch
-          </Link>
+      <section className="relative h-[600px] overflow-hidden">
+        <div className="absolute inset-0">
+          <HeroSlider />
         </div>
       </section>
 
