@@ -14,15 +14,19 @@ const HeroSlider = () => {
       id: 1, 
       image: '/assets/arams_pages/aramprj4.png', 
       alt: 'Aram Group Construction',
-      title: 'Aram1',
-      description: 'Quality construction services'
+      title: (
+        <>
+          At <span style={{ color: '#171717' }}>Aram Group</span>
+        </>
+      ),
+      description: 'Dedicated to integrity, performance, and value, we build lasting partnerships by providing tailored, high‑quality construction, agriculture, and trading solutions.'
     },
     { 
       id: 2, 
       image: '/assets/arams_pages/aramprj5.png', 
       alt: 'Aram Group Trading',
-      title: 'Aram2',
-      description: 'International trading solutions'
+       title: 'Commitment to excellence',
+      description: 'Highest Standards in Contracting & Construction: We turn client ideas into reality through precision, quality, and a commitment to excellence in every project.'
     },
     { 
       id: 3, 
