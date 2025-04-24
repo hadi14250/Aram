@@ -10,7 +10,7 @@ export default function Home() {
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-900 hover:text-blue-700 transition-colors duration-300">
+            <Link href="/" className="text-2xl font-bold text-blue-900 hover:text-blue-700 transition-colors duration-300 -ml-16">
               Aram Group
             </Link>
             <nav className="hidden md:flex space-x-8">
