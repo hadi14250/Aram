@@ -110,9 +110,9 @@ const Navigation = () => {
               Projects
             </Link>
             <Link 
-              href="/vision" 
+              href="/contacts" 
               className={`transition-all duration-300 ${
-                pathname === "/vision" 
+                pathname === "/contacts" 
                   ? isScrolled 
                     ? "text-blue-900 font-semibold border-b-2 border-blue-900" 
                     : "text-white font-semibold border-b-2 border-white"
@@ -121,7 +121,7 @@ const Navigation = () => {
                     : "text-blue-100 hover:text-white hover:border-b-2 hover:border-white"
               }`}
             >
-              Vision & Mission
+              Contacts
             </Link>
           </div>
 
@@ -207,13 +207,13 @@ const Navigation = () => {
             Projects
           </Link>
           <Link 
-            href="/vision" 
+            href="/contacts" 
             className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-              pathname === "/vision" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
+              pathname === "/contacts" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Vision & Mission
+            Contacts
           </Link>
         </div>
       </div>

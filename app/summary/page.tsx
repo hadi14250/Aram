@@ -62,6 +62,15 @@ export default function Summary() {
                 />
               </div>
               <div className="p-8">
+                <div className="flex justify-center mb-6">
+                  <Image
+                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    alt="Aram Group Logo"
+                    width={250}
+                    height={180}
+                    className="shadow-lg"
+                  />
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Group</h2>
                 <p className="text-gray-700 mb-6">
                   At Aram Group, we are committed to building long-term partnerships based on integrity, performance, value, and client satisfaction. Through our expertise in construction contracting, agriculture services, and business trading, we consistently deliver high-quality solutions tailored to our clients' needs.
@@ -76,15 +85,6 @@ export default function Summary() {
           {/* Aram Construction */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="p-8 order-2 md:order-1">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Construction</h2>
-                <p className="text-gray-700 mb-6">
-                  Civil & Structural Construction – Specializing in building construction, repairs, maintenance, and renovations.
-                </p>
-                <p className="text-gray-700">
-                  Our civil and structural construction services cover a wide range of essential infrastructure and building solutions. We specialize in creating durable, safe, and efficient structures—from foundations to full-scale systems—serving both public and private sector projects across the UAE.
-                </p>
-              </div>
               <div className="relative h-96 order-1 md:order-2">
                 <Image
                   src="/images/services-img1.png"
@@ -92,6 +92,24 @@ export default function Summary() {
                   fill
                   className="object-cover"
                 />
+              </div>
+              <div className="p-8 order-2 md:order-1">
+                <div className="flex justify-center mb-6">
+                  <Image
+                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    alt="Aram Group Logo"
+                    width={250}
+                    height={180}
+                    className="shadow-lg"
+                  />
+                </div>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Construction</h2>
+                <p className="text-gray-700 mb-6">
+                  Civil & Structural Construction – Specializing in building construction, repairs, maintenance, and renovations.
+                </p>
+                <p className="text-gray-700">
+                  Our civil and structural construction services cover a wide range of essential infrastructure and building solutions. We specialize in creating durable, safe, and efficient structures—from foundations to full-scale systems—serving both public and private sector projects across the UAE.
+                </p>
               </div>
             </div>
           </div>
@@ -108,6 +126,15 @@ export default function Summary() {
                 />
               </div>
               <div className="p-8">
+                <div className="flex justify-center mb-6">
+                  <Image
+                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    alt="Aram Group Logo"
+                    width={250}
+                    height={180}
+                    className="shadow-lg"
+                  />
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line General Trading</h2>
                 <p className="text-gray-700 mb-6">
                   General Trading – Delivering quality products and tailored solutions across diverse industries, building trusted connections and ensuring reliable service every step of the way.
@@ -122,15 +149,6 @@ export default function Summary() {
           {/* Golden Aram Building Contracting */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="p-8 order-2 md:order-1">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Golden Aram Building Contracting</h2>
-                <p className="text-gray-700 mb-6">
-                  Building Contracting – Expertly managing construction, renovation, and maintenance projects with a focus on quality, efficiency, and long-term value to ensure complete client satisfaction.
-                </p>
-                <p className="text-gray-700">
-                  At Golden Aram Building Contracting, we provide expert contracting services focused on project supervision, efficient management, and above all, client satisfaction. We ensure every stage of the project is handled with precision, transparency, and professionalism.
-                </p>
-              </div>
               <div className="relative h-96 order-1 md:order-2">
                 <Image
                   src="/images/services-img6.jpg"
@@ -138,6 +156,24 @@ export default function Summary() {
                   fill
                   className="object-cover"
                 />
+              </div>
+              <div className="p-8 order-2 md:order-1">
+                <div className="flex justify-center mb-6">
+                  <Image
+                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    alt="Aram Group Logo"
+                    width={250}
+                    height={180}
+                    className="shadow-lg"
+                  />
+                </div>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Golden Aram Building Contracting</h2>
+                <p className="text-gray-700 mb-6">
+                  Building Contracting – Expertly managing construction, renovation, and maintenance projects with a focus on quality, efficiency, and long-term value to ensure complete client satisfaction.
+                </p>
+                <p className="text-gray-700">
+                  At Golden Aram Building Contracting, we provide expert contracting services focused on project supervision, efficient management, and above all, client satisfaction. We ensure every stage of the project is handled with precision, transparency, and professionalism.
+                </p>
               </div>
             </div>
           </div>
@@ -154,6 +190,15 @@ export default function Summary() {
                 />
               </div>
               <div className="p-8">
+                <div className="flex justify-center mb-6">
+                  <Image
+                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    alt="Aram Group Logo"
+                    width={250}
+                    height={180}
+                    className="shadow-lg"
+                  />
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line Agricultural Services</h2>
                 <p className="text-gray-700 mb-6">
                   Agricultural Services – Providing reliable support and innovative solutions for farming and agribusiness, focused on productivity, sustainability, and complete client satisfaction.
