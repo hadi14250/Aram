@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import HeroSlider from "./components/HeroSlider";
+import Map from './components/Map';
 
 export default function Home() {
   return (
@@ -371,6 +372,9 @@ export default function Home() {
               <div className="bg-gray-800 p-4 rounded-lg">
                 <p className="text-gray-400 mb-2">Monday - Friday</p>
                 <p className="text-gray-400">9:00 AM - 4:00 PM</p>
+              </div>
+              <div className="mt-6 h-[200px] w-[600px] -ml-80 rounded-lg overflow-hidden shadow-lg">
+                <Map />
               </div>
             </div>
           </div>
