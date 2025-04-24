@@ -69,7 +69,7 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className="relative h-full w-full overflow-hidden">
+    <div className="relative h-screen w-full overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
@@ -81,13 +81,14 @@ const HeroSlider = () => {
             src={slide.image}
             alt={slide.alt}
             fill
-            className="object-cover"
+            className="object-cover w-full h-full"
             priority={index === 0}
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
           
           {/* Slide text content */}
-          <div className={`absolute bottom-32 left-0 right-0 text-center transition-all duration-500 ease-in-out ${
+          <div className={`absolute bottom-96 left-0 right-0 text-center transition-all duration-500 ease-in-out ${
             isTextVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">{slide.title}</h2>
@@ -95,7 +96,7 @@ const HeroSlider = () => {
           </div>
           
           {/* Buttons */}
-          <div className={`absolute bottom-16 left-0 right-0 transition-all duration-500 ease-in-out ${
+          <div className={`absolute bottom-64 left-0 right-0 transition-all duration-500 ease-in-out ${
             isButtonsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
