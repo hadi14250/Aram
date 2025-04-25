@@ -40,15 +40,12 @@ const HeroSlider = () => {
   }, [currentSlide]);
 
   const handleSlideChange = (newSlideIndex: number) => {
-    // Hide text and buttons before changing slide
     setIsTextVisible(false);
     setIsButtonsVisible(false);
     
-    // Wait for fade out animation
     setTimeout(() => {
       setCurrentSlide(newSlideIndex);
       
-      // Show text and buttons after slide change
       setTimeout(() => {
         setIsTextVisible(true);
         setIsButtonsVisible(true);
@@ -57,7 +54,7 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[50vh] sm:h-screen w-full overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -75,30 +72,28 @@ const HeroSlider = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
           
-          {/* Slide text content */}
-          <div className={`absolute bottom-96 left-0 right-0 text-center transition-all duration-500 ease-in-out ${
+          <div className={`absolute bottom-32 sm:bottom-96 left-0 right-0 text-center transition-all duration-500 ease-in-out px-4 ${
             isTextVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">{slide.title}</h2>
-            <p className="text-xl text-green-100 max-w-2xl mx-auto px-4">{slide.description}</p>
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-2 sm:mb-4">{slide.title}</h2>
+            <p className="text-sm sm:text-xl text-green-100 max-w-2xl mx-auto">{slide.description}</p>
           </div>
           
-          {/* Buttons */}
-          <div className={`absolute bottom-64 left-0 right-0 transition-all duration-500 ease-in-out ${
+          <div className={`absolute bottom-16 sm:bottom-64 left-0 right-0 transition-all duration-500 ease-in-out ${
             isButtonsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
               <div className="max-w-3xl mx-auto">
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-center">
                   <Link 
                     href="/about" 
-                    className="inline-block bg-white text-green-900 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
+                    className="inline-block bg-white text-green-900 px-4 sm:px-8 py-2 sm:py-4 rounded-lg font-semibold hover:bg-green-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base"
                   >
                     Read More
                   </Link>
                   <Link 
                     href="/contact" 
-                    className="inline-block bg-green-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
+                    className="inline-block bg-green-900 text-white px-4 sm:px-8 py-2 sm:py-4 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base"
                   >
                     Contact Us
                   </Link>
@@ -109,34 +104,32 @@ const HeroSlider = () => {
         </div>
       ))}
       
-      {/* Navigation arrows - positioned on left and right sides */}
       <button 
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white p-2 rounded-full transition-all duration-300"
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white p-1 sm:p-2 rounded-full transition-all duration-300"
         onClick={() => handleSlideChange((currentSlide - 1 + slides.length) % slides.length)}
         aria-label="Previous slide"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
       
       <button 
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white p-2 rounded-full transition-all duration-300"
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white p-1 sm:p-2 rounded-full transition-all duration-300"
         onClick={() => handleSlideChange((currentSlide + 1) % slides.length)}
         aria-label="Next slide"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </button>
       
-      {/* Slide indicators */}
-      <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
+      <div className="absolute bottom-2 sm:bottom-4 left-0 right-0 flex justify-center gap-1 sm:gap-2">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => handleSlideChange(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
               index === currentSlide ? 'bg-white scale-125' : 'bg-white/50 hover:bg-white/70'
             }`}
             aria-label={`Go to slide ${index + 1}`}

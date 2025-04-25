@@ -9,12 +9,12 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Header */}
       <header className="bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-green-900 hover:text-green-700 transition-colors duration-300 -ml-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
+          <div className="flex flex-col sm:flex-row justify-between items-center">
+            <Link href="/" className="text-xl sm:text-2xl font-bold text-green-900 hover:text-green-700 transition-colors duration-300 mb-4 sm:mb-0">
               Aram Group
             </Link>
-            <nav className="hidden md:flex space-x-8">
+            <nav className="hidden md:flex space-x-4 sm:space-x-8">
               <Link href="/" className="text-green-900 font-semibold border-b-2 border-green-900">
                 Home
               </Link>
@@ -39,18 +39,18 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-screen overflow-hidden">
+      <section className="relative h-[50vh] sm:h-screen overflow-hidden">
         <div className="absolute inset-0">
           <HeroSlider />
         </div>
       </section>
 
       {/* Summary Information */}
-      <section className="relative -mt-32 z-10">
+      <section className="relative -mt-16 sm:-mt-32 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
+            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
                 <Image
                   src="/images/services-img1.png"
                   alt="Aram Group"
@@ -60,22 +60,22 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">At ARAM GROUP</h3>
-                <p className="text-gray-600 mb-6 text-center">
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">At ARAM GROUP</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
                   We are committed to integrity, performance, and value. Our success is built on long-term partnerships and client satisfaction.
                 </p>
               </div>
               <div className="text-center mt-auto">
                 <Link 
                   href="/about" 
-                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
                 >
                   Read More
                 </Link>
               </div>
             </div>
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
                 <Image
                   src="/images/services-img5.jpg"
                   alt="Construction"
@@ -85,22 +85,22 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Highest Standards in Contracting & Construction</h3>
-                <p className="text-gray-600 mb-6 text-center">
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Highest Standards in Contracting & Construction</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
                   We maintain the highest standards in contracting and construction, ensuring quality and excellence in every project.
                 </p>
               </div>
               <div className="text-center mt-auto">
                 <Link 
                   href="/business" 
-                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
                 >
                   Read More
                 </Link>
               </div>
             </div>
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
                 <Image
                   src="/images/services-img6.jpg"
                   alt="Trading"
@@ -110,22 +110,22 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Not just a trading company</h3>
-                <p className="text-gray-600 mb-6 text-center">
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Not just a trading company</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
                   We are more than just a trading company. We are a comprehensive solution provider across multiple sectors.
                 </p>
               </div>
               <div className="text-center mt-auto">
                 <Link 
                   href="/business" 
-                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
                 >
                   Read More
                 </Link>
               </div>
             </div>
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
                 <Image
                   src="/images/background.jpg"
                   alt="About Us"
@@ -135,15 +135,15 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">About Us</h3>
-                <p className="text-gray-600 mb-6 text-center">
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">About Us</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
                   Founded in 2006 by Engr. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
                 </p>
               </div>
               <div className="text-center mt-auto">
                 <Link 
                   href="/about" 
-                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
                 >
                   Read More
                 </Link>
@@ -154,31 +154,31 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-100 to-white">
+      <section className="py-10 sm:py-20 bg-gradient-to-b from-gray-100 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">About Us</h2>
-            <div className="w-24 h-1 bg-green-900 mx-auto mb-6"></div>
-            <p className="mt-4 text-gray-600 max-w-3xl mx-auto text-lg">
+          <div className="text-center mb-8 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-2 sm:mb-4">About Us</h2>
+            <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
+            <p className="mt-2 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-3xl mx-auto">
               Founded in 2006 by Engr. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <p className="text-gray-600 text-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
+            <div className="space-y-4 sm:space-y-6">
+              <p className="text-sm sm:text-base text-gray-600">
                 Our journey began with a vision to provide exceptional construction services. Today, we have expanded our expertise to include trading and agricultural services, becoming a trusted name in multiple industries.
               </p>
-              <p className="text-gray-600 text-lg">
+              <p className="text-sm sm:text-base text-gray-600">
                 With a team of experienced professionals and a commitment to quality, we continue to deliver excellence in every project we undertake.
               </p>
               <Link 
                 href="/about" 
-                className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg mt-4"
+                className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
               >
                 Learn More About Us
               </Link>
             </div>
-            <div className="relative h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
+            <div className="relative h-64 sm:h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
               <Image
                 src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
                 alt="About Aram Group"
@@ -192,22 +192,22 @@ export default function Home() {
       </section>
 
       {/* Vision & Mission */}
-      <section className="py-20">
+      <section className="py-10 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Vision & Mission</h2>
-            <div className="w-24 h-1 bg-green-900 mx-auto mb-6"></div>
+          <div className="text-center mb-8 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-2 sm:mb-4">Vision & Mission</h2>
+            <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-green-900">
-              <h3 className="text-2xl font-bold text-green-900 mb-6">Our Vision</h3>
-              <p className="text-gray-600 text-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-12">
+            <div className="bg-white p-6 sm:p-10 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-green-900">
+              <h3 className="text-xl sm:text-2xl font-bold text-green-900 mb-4 sm:mb-6">Our Vision</h3>
+              <p className="text-sm sm:text-base text-gray-600">
                 To be the leading provider of comprehensive solutions in construction, trading, and agricultural services, recognized for our commitment to excellence and innovation.
               </p>
             </div>
-            <div className="bg-white p-10 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-green-900">
-              <h3 className="text-2xl font-bold text-green-900 mb-6">Our Mission</h3>
-              <p className="text-gray-600 text-lg">
+            <div className="bg-white p-6 sm:p-10 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-green-900">
+              <h3 className="text-xl sm:text-2xl font-bold text-green-900 mb-4 sm:mb-6">Our Mission</h3>
+              <p className="text-sm sm:text-base text-gray-600">
                 To deliver exceptional value to our clients through quality services, sustainable practices, and innovative solutions, while maintaining the highest standards of integrity and professionalism.
               </p>
             </div>
@@ -216,57 +216,57 @@ export default function Home() {
       </section>
 
       {/* Business & Expertise */}
-      <section className="py-20 bg-gradient-to-b from-gray-100 to-white">
+      <section className="py-10 sm:py-20 bg-gradient-to-b from-gray-100 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Our Business & Expertise</h2>
-            <div className="w-24 h-1 bg-green-900 mx-auto mb-6"></div>
-            <p className="mt-4 text-gray-600 max-w-3xl mx-auto text-lg">
+          <div className="text-center mb-8 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-2 sm:mb-4">Our Business & Expertise</h2>
+            <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
+            <p className="mt-2 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-3xl mx-auto">
               We offer comprehensive solutions across multiple sectors
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6 mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
+            <div className="bg-white p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 sm:mb-6 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Aram Construction</h3>
-              <p className="text-gray-600 text-center">
+              <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Aram Construction</h3>
+              <p className="text-sm sm:text-base text-gray-600 text-center">
                 Specialized in construction and contracting services with a focus on quality and innovation.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6 mx-auto">
+            <div className="bg-white p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 sm:mb-6 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Aram Golden Line General Trading</h3>
-              <p className="text-gray-600 text-center">
+              <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Aram Golden Line General Trading</h3>
+              <p className="text-sm sm:text-base text-gray-600 text-center">
                 Providing comprehensive trading solutions with a wide range of products and services.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6 mx-auto">
+            <div className="bg-white p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 sm:mb-6 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Golden Aram Building Contracting</h3>
-              <p className="text-gray-600 text-center">
+              <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Golden Aram Building Contracting</h3>
+              <p className="text-sm sm:text-base text-gray-600 text-center">
                 Expert in building contracting with a focus on quality and client satisfaction.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6 mx-auto">
+            <div className="bg-white p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 sm:mb-6 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Aram Golden Line Agricultural Services</h3>
-              <p className="text-gray-600 text-center">
+              <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Aram Golden Line Agricultural Services</h3>
+              <p className="text-sm sm:text-base text-gray-600 text-center">
                 Delivering innovative agricultural solutions and services to meet modern farming needs.
               </p>
             </div>
@@ -275,17 +275,17 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="py-20">
+      <section className="py-10 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">Projects</h2>
-            <div className="w-24 h-1 bg-green-900 mx-auto mb-6"></div>
-            <p className="mt-4 text-gray-600 max-w-3xl mx-auto text-lg">
+          <div className="text-center mb-8 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-2 sm:mb-4">Projects</h2>
+            <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
+            <p className="mt-2 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-3xl mx-auto">
               Explore our portfolio of successful projects
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="group relative h-80 rounded-xl overflow-hidden shadow-lg">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8">
+            <div className="group relative h-64 sm:h-80 rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/assets/porjects/aramprj1.png"
                 alt="Project 1"
@@ -294,12 +294,12 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                 <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                  <h3 className="text-white text-2xl font-bold mb-2">Construction Project</h3>
+                  <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Construction Project</h3>
                   <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Years of experience in construction</p>
                 </div>
               </div>
             </div>
-            <div className="group relative h-80 rounded-xl overflow-hidden shadow-lg">
+            <div className="group relative h-64 sm:h-80 rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/assets/porjects/aramprj8.png"
                 alt="Project 2"
@@ -308,12 +308,12 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                 <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                  <h3 className="text-white text-2xl font-bold mb-2">Trading Project</h3>
+                  <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Trading Project</h3>
                   <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Premium materials and standards</p>
                 </div>
               </div>
             </div>
-            <div className="group relative h-80 rounded-xl overflow-hidden shadow-lg">
+            <div className="group relative h-64 sm:h-80 rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/assets/porjects/aramprj9.png"
                 alt="Project 3"
@@ -322,6 +322,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                 <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                  <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Agricultural Project</h3>
                   <h3 className="text-white text-2xl font-bold mb-2">Agricultural Project</h3>
                   <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Reliable project completion</p>
                 </div>

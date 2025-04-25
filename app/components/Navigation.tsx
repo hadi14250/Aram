@@ -25,10 +25,10 @@ const Navigation = () => {
         : 'bg-green-900'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center h-20">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center group -ml-32">
-            <span className={`text-2xl font-bold transition-colors duration-300 ${
+          <Link href="/" className="flex items-center">
+            <span className={`text-lg sm:text-2xl font-bold transition-colors duration-300 ${
               isScrolled 
                 ? 'text-green-900 group-hover:text-green-700' 
                 : 'text-white group-hover:text-green-100'
@@ -38,7 +38,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8 ml-auto">
+          <div className="hidden md:flex items-center space-x-8">
             <Link 
               href="/" 
               className={`transition-all duration-300 ${
@@ -156,14 +156,14 @@ const Navigation = () => {
       <div 
         className={`md:hidden transition-all duration-300 ease-in-out ${
           isMobileMenuOpen 
-            ? 'max-h-96 opacity-100' 
+            ? 'max-h-screen opacity-100' 
             : 'max-h-0 opacity-0 overflow-hidden'
         } bg-white shadow-lg`}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className="px-4 py-2 space-y-2">
           <Link 
             href="/" 
-            className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
+            className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${
               pathname === "/" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
@@ -172,7 +172,7 @@ const Navigation = () => {
           </Link>
           <Link 
             href="/summary" 
-            className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
+            className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${
               pathname === "/summary" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
@@ -181,7 +181,7 @@ const Navigation = () => {
           </Link>
           <Link 
             href="/about" 
-            className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
+            className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${
               pathname === "/about" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
@@ -190,7 +190,7 @@ const Navigation = () => {
           </Link>
           <Link 
             href="/business" 
-            className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
+            className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${
               pathname === "/business" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
@@ -199,7 +199,7 @@ const Navigation = () => {
           </Link>
           <Link 
             href="/projects" 
-            className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
+            className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${
               pathname === "/projects" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
@@ -208,7 +208,7 @@ const Navigation = () => {
           </Link>
           <Link 
             href="/contacts" 
-            className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
+            className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${
               pathname === "/contacts" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
