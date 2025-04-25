@@ -49,73 +49,105 @@ export default function Home() {
       <section className="relative -mt-32 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+                <Image
+                  src="/images/services-img1.png"
+                  alt="Aram Group"
+                  width={160}
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4">At ARAM GROUP</h3>
-              <p className="text-gray-600 mb-6">
-                We are committed to integrity, performance, and value. Our success is built on long-term partnerships and client satisfaction.
-              </p>
-              <Link 
-                href="/about" 
-                className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
-              >
-                Read More
-              </Link>
+              <div className="flex-grow">
+                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">At ARAM GROUP</h3>
+                <p className="text-gray-600 mb-6 text-center">
+                  We are committed to integrity, performance, and value. Our success is built on long-term partnerships and client satisfaction.
+                </p>
+              </div>
+              <div className="text-center mt-auto">
+                <Link 
+                  href="/about" 
+                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                >
+                  Read More
+                </Link>
+              </div>
             </div>
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+                <Image
+                  src="/images/services-img5.jpg"
+                  alt="Construction"
+                  width={160}
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4">Highest Standards in Contracting & Construction</h3>
-              <p className="text-gray-600 mb-6">
-                We maintain the highest standards in contracting and construction, ensuring quality and excellence in every project.
-              </p>
-              <Link 
-                href="/business" 
-                className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
-              >
-                Read More
-              </Link>
+              <div className="flex-grow">
+                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Highest Standards in Contracting & Construction</h3>
+                <p className="text-gray-600 mb-6 text-center">
+                  We maintain the highest standards in contracting and construction, ensuring quality and excellence in every project.
+                </p>
+              </div>
+              <div className="text-center mt-auto">
+                <Link 
+                  href="/business" 
+                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                >
+                  Read More
+                </Link>
+              </div>
             </div>
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+                <Image
+                  src="/images/services-img6.jpg"
+                  alt="Trading"
+                  width={160}
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4">Not just a trading company</h3>
-              <p className="text-gray-600 mb-6">
-                We are more than just a trading company. We are a comprehensive solution provider across multiple sectors.
-              </p>
-              <Link 
-                href="/business" 
-                className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
-              >
-                Read More
-              </Link>
+              <div className="flex-grow">
+                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">Not just a trading company</h3>
+                <p className="text-gray-600 mb-6 text-center">
+                  We are more than just a trading company. We are a comprehensive solution provider across multiple sectors.
+                </p>
+              </div>
+              <div className="text-center mt-auto">
+                <Link 
+                  href="/business" 
+                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                >
+                  Read More
+                </Link>
+              </div>
             </div>
-            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
+              <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 mx-auto">
+                <Image
+                  src="/images/background.jpg"
+                  alt="About Us"
+                  width={160}
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-xl font-bold text-green-900 mb-4">About Us</h3>
-              <p className="text-gray-600 mb-6">
-                Founded in 2006 by Engr. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
-              </p>
-              <Link 
-                href="/about" 
-                className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
-              >
-                Read More
-              </Link>
+              <div className="flex-grow">
+                <h3 className="text-xl font-bold text-green-900 mb-4 text-center">About Us</h3>
+                <p className="text-gray-600 mb-6 text-center">
+                  Founded in 2006 by Engr. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
+                </p>
+              </div>
+              <div className="text-center mt-auto">
+                <Link 
+                  href="/about" 
+                  className="inline-block bg-green-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                >
+                  Read More
+                </Link>
+              </div>
             </div>
           </div>
         </div>
