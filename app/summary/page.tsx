@@ -63,20 +63,22 @@ export default function Summary() {
               </div>
               <div className="p-8">
                 <div className="flex justify-center mb-6">
-                  <Image
-                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
-                    alt="Aram Group Logo"
-                    width={250}
-                    height={180}
-                    className="shadow-lg"
-                  />
+                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                    <Image
+                      src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                      alt="Aram Group Logo"
+                      width={220}
+                      height={220}
+                      className="max-w-[220px] max-h-[220px] object-contain"
+                    />
+                  </div>
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Group</h2>
                 <p className="text-gray-700 mb-6">
-                  At Aram Group, we are committed to building long-term partnerships based on integrity, performance, value, and client satisfaction. Through our expertise in construction contracting, agriculture services, and business trading, we consistently deliver high-quality solutions tailored to our clients' needs.
+                  We are committed to integrity, performance, and value. Our success is built on long-term partnerships and client satisfaction.
                 </p>
                 <p className="text-gray-700">
-                  Our diverse portfolio of services allows us to provide comprehensive solutions for a wide range of projects, from construction and infrastructure development to agricultural services and general trading. With a focus on quality, innovation, and sustainability, we strive to exceed client expectations in every project we undertake.
+                  We maintain the highest standards in contracting and construction, ensuring quality and excellence in every project. We are more than just a trading company. We are a comprehensive solution provider across multiple sectors.
                 </p>
               </div>
             </div>
@@ -95,13 +97,15 @@ export default function Summary() {
               </div>
               <div className="p-8 order-2 md:order-1">
                 <div className="flex justify-center mb-6">
-                  <Image
-                    src="/assets/logo/ARAM.logo.jpg"
-                    alt="Aram Group Logo"
-                    width={250}
-                    height={180}
-                    className="shadow-lg"
-                  />
+                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                    <Image
+                      src="/assets/logo/ARAM.logo.jpg"
+                      alt="Aram Group Logo"
+                      width={220}
+                      height={220}
+                      className="max-w-[220px] max-h-[220px] object-contain"
+                    />
+                  </div>
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Construction</h2>
                 <p className="text-gray-700 mb-6">
@@ -127,13 +131,15 @@ export default function Summary() {
               </div>
               <div className="p-8">
                 <div className="flex justify-center mb-6">
-                  <Image
-                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19 (1).jpeg"
-                    alt="Aram Group Logo"
-                    width={250}
-                    height={180}
-                    className="shadow-lg"
-                  />
+                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                    <Image
+                      src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19 (1).jpeg"
+                      alt="Aram Group Logo"
+                      width={220}
+                      height={220}
+                      className="max-w-[220px] max-h-[220px] object-contain"
+                    />
+                  </div>
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line General Trading</h2>
                 <p className="text-gray-700 mb-6">
@@ -159,13 +165,15 @@ export default function Summary() {
               </div>
               <div className="p-8 order-2 md:order-1">
                 <div className="flex justify-center mb-6">
-                  <Image
-                    src="/assets/logo/Golden Aram Building Contracting.png"
-                    alt="Aram Group Logo"
-                    width={250}
-                    height={180}
-                    className="shadow-lg"
-                  />
+                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                    <Image
+                      src="/assets/logo/Golden Aram Building Contracting.png"
+                      alt="Aram Group Logo"
+                      width={220}
+                      height={220}
+                      className="max-w-[220px] max-h-[220px] object-contain"
+                    />
+                  </div>
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Golden Aram Building Contracting</h2>
                 <p className="text-gray-700 mb-6">
@@ -191,13 +199,15 @@ export default function Summary() {
               </div>
               <div className="p-8">
                 <div className="flex justify-center mb-6">
-                  <Image
-                    src="/assets/logo/Ararm Golden Line Agricutural.png"
-                    alt="Aram Group Logo"
-                    width={250}
-                    height={180}
-                    className="shadow-lg"
-                  />
+                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                    <Image
+                      src="/assets/logo/Ararm Golden Line Agricutural.png"
+                      alt="Aram Group Logo"
+                      width={220}
+                      height={220}
+                      className="max-w-[220px] max-h-[220px] object-contain"
+                    />
+                  </div>
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line Agricultural Services</h2>
                 <p className="text-gray-700 mb-6">
