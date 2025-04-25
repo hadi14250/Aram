@@ -92,7 +92,7 @@ const HeroSlider = () => {
             isTextVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">{slide.title}</h2>
-            <p className="text-xl text-blue-100 max-w-2xl mx-auto px-4">{slide.description}</p>
+            <p className="text-xl text-green-100 max-w-2xl mx-auto px-4">{slide.description}</p>
           </div>
           
           {/* Buttons */}
@@ -104,13 +104,13 @@ const HeroSlider = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link 
                     href="/about" 
-                    className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
+                    className="inline-block bg-white text-green-900 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
                   >
                     Read More
                   </Link>
                   <Link 
                     href="/contact" 
-                    className="inline-block bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
+                    className="inline-block bg-green-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
                   >
                     Contact Us
                   </Link>

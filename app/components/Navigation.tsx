@@ -22,7 +22,7 @@ const Navigation = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled 
         ? 'bg-white shadow-lg backdrop-blur-sm bg-white/90' 
-        : 'bg-blue-900'
+        : 'bg-green-900'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center h-20">
@@ -30,8 +30,8 @@ const Navigation = () => {
           <Link href="/" className="flex items-center group -ml-64">
             <span className={`text-2xl font-bold transition-colors duration-300 ${
               isScrolled 
-                ? 'text-blue-900 group-hover:text-blue-700' 
-                : 'text-white group-hover:text-blue-100'
+                ? 'text-green-900 group-hover:text-green-700' 
+                : 'text-white group-hover:text-green-100'
             }`}>
               Aram Group
             </span>
@@ -44,11 +44,11 @@ const Navigation = () => {
               className={`transition-all duration-300 ${
                 pathname === "/" 
                   ? isScrolled 
-                    ? "text-blue-900 font-semibold border-b-2 border-blue-900" 
-                    : "text-white font-semibold border-b-2 border-white"
+                    ? "text-green-900 font-semibold border-b-2 border-green-900" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
                   : isScrolled 
-                    ? "text-gray-600 hover:text-blue-900 hover:border-b-2 hover:border-blue-900" 
-                    : "text-blue-100 hover:text-white hover:border-b-2 hover:border-white"
+                    ? "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
               }`}
             >
               Home
@@ -58,11 +58,11 @@ const Navigation = () => {
               className={`transition-all duration-300 ${
                 pathname === "/summary" 
                   ? isScrolled 
-                    ? "text-blue-900 font-semibold border-b-2 border-blue-900" 
-                    : "text-white font-semibold border-b-2 border-white"
+                    ? "text-green-900 font-semibold border-b-2 border-green-900" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
                   : isScrolled 
-                    ? "text-gray-600 hover:text-blue-900 hover:border-b-2 hover:border-blue-900" 
-                    : "text-blue-100 hover:text-white hover:border-b-2 hover:border-white"
+                    ? "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
               }`}
             >
               Summary Information
@@ -72,11 +72,11 @@ const Navigation = () => {
               className={`transition-all duration-300 ${
                 pathname === "/about" 
                   ? isScrolled 
-                    ? "text-blue-900 font-semibold border-b-2 border-blue-900" 
-                    : "text-white font-semibold border-b-2 border-white"
+                    ? "text-green-900 font-semibold border-b-2 border-green-900" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
                   : isScrolled 
-                    ? "text-gray-600 hover:text-blue-900 hover:border-b-2 hover:border-blue-900" 
-                    : "text-blue-100 hover:text-white hover:border-b-2 hover:border-white"
+                    ? "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
               }`}
             >
               About Us
@@ -86,11 +86,11 @@ const Navigation = () => {
               className={`transition-all duration-300 ${
                 pathname === "/business" 
                   ? isScrolled 
-                    ? "text-blue-900 font-semibold border-b-2 border-blue-900" 
-                    : "text-white font-semibold border-b-2 border-white"
+                    ? "text-green-900 font-semibold border-b-2 border-green-900" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
                   : isScrolled 
-                    ? "text-gray-600 hover:text-blue-900 hover:border-b-2 hover:border-blue-900" 
-                    : "text-blue-100 hover:text-white hover:border-b-2 hover:border-white"
+                    ? "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
               }`}
             >
               Business & Expertise
@@ -100,11 +100,11 @@ const Navigation = () => {
               className={`transition-all duration-300 ${
                 pathname === "/projects" 
                   ? isScrolled 
-                    ? "text-blue-900 font-semibold border-b-2 border-blue-900" 
-                    : "text-white font-semibold border-b-2 border-white"
+                    ? "text-green-900 font-semibold border-b-2 border-green-900" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
                   : isScrolled 
-                    ? "text-gray-600 hover:text-blue-900 hover:border-b-2 hover:border-blue-900" 
-                    : "text-blue-100 hover:text-white hover:border-b-2 hover:border-white"
+                    ? "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
               }`}
             >
               Projects
@@ -114,11 +114,11 @@ const Navigation = () => {
               className={`transition-all duration-300 ${
                 pathname === "/contacts" 
                   ? isScrolled 
-                    ? "text-blue-900 font-semibold border-b-2 border-blue-900" 
-                    : "text-white font-semibold border-b-2 border-white"
+                    ? "text-green-900 font-semibold border-b-2 border-green-900" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
                   : isScrolled 
-                    ? "text-gray-600 hover:text-blue-900 hover:border-b-2 hover:border-blue-900" 
-                    : "text-blue-100 hover:text-white hover:border-b-2 hover:border-white"
+                    ? "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700" 
+                    : "text-white hover:text-green-100 hover:border-b-2 hover:border-green-100"
               }`}
             >
               Contacts
@@ -164,7 +164,7 @@ const Navigation = () => {
           <Link 
             href="/" 
             className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-              pathname === "/" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
+              pathname === "/" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -173,7 +173,7 @@ const Navigation = () => {
           <Link 
             href="/summary" 
             className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-              pathname === "/summary" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
+              pathname === "/summary" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -182,7 +182,7 @@ const Navigation = () => {
           <Link 
             href="/about" 
             className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-              pathname === "/about" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
+              pathname === "/about" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -191,7 +191,7 @@ const Navigation = () => {
           <Link 
             href="/business" 
             className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-              pathname === "/business" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
+              pathname === "/business" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -200,7 +200,7 @@ const Navigation = () => {
           <Link 
             href="/projects" 
             className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-              pathname === "/projects" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
+              pathname === "/projects" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
@@ -209,7 +209,7 @@ const Navigation = () => {
           <Link 
             href="/contacts" 
             className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
-              pathname === "/contacts" ? "bg-blue-900 text-white" : "text-gray-900 hover:bg-blue-50 hover:text-blue-900"
+              pathname === "/contacts" ? "bg-green-900 text-white" : "text-gray-900 hover:bg-green-50 hover:text-green-900"
             }`}
             onClick={() => setIsMobileMenuOpen(false)}
           >

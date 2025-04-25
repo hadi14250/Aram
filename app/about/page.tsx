@@ -8,26 +8,26 @@ export default function About() {
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-900">
+            <Link href="/" className="text-2xl font-bold text-green-900">
               Aram Group
             </Link>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-600 hover:text-blue-900">
+              <Link href="/" className="text-gray-600 hover:text-green-900">
                 Home
               </Link>
-              <Link href="/summary" className="text-gray-600 hover:text-blue-900">
+              <Link href="/summary" className="text-gray-600 hover:text-green-900">
                 Summary Information
               </Link>
-              <Link href="/about" className="text-blue-900 font-semibold">
+              <Link href="/about" className="text-green-900 font-semibold">
                 About Us
               </Link>
-              <Link href="/business" className="text-gray-600 hover:text-blue-900">
+              <Link href="/business" className="text-gray-600 hover:text-green-900">
                 Business & Expertise
               </Link>
-              <Link href="/projects" className="text-gray-600 hover:text-blue-900">
+              <Link href="/projects" className="text-gray-600 hover:text-green-900">
                 Projects
               </Link>
-              <Link href="/vision" className="text-gray-600 hover:text-blue-900">
+              <Link href="/vision" className="text-gray-600 hover:text-green-900">
                 Vision & Mission
               </Link>
             </nav>
@@ -36,7 +36,7 @@ export default function About() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             About Us
@@ -77,19 +77,19 @@ export default function About() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Values</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Integrity</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Integrity</h3>
                 <p className="text-gray-700">
                   We conduct our business with honesty, transparency, and ethical practices, building trust with our clients and partners.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Excellence</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Excellence</h3>
                 <p className="text-gray-700">
                   We strive for the highest standards in everything we do, from project execution to customer service.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Innovation</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Innovation</h3>
                 <p className="text-gray-700">
                   We embrace new technologies and methods to deliver better solutions and stay ahead of industry trends.
                 </p>
@@ -111,7 +111,7 @@ export default function About() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Engr. Mohamad Alhalouch</h3>
-                  <p className="text-blue-900 font-semibold mb-2">Founder & Owner</p>
+                  <p className="text-green-900 font-semibold mb-2">Founder & Owner</p>
                   <p className="text-gray-700">
                     With extensive experience in the construction industry, Engr. Mohamad Alhalouch leads Aram Group with vision and expertise, guiding the company's growth and success.
                   </p>
@@ -128,7 +128,7 @@ export default function About() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Our Management Team</h3>
-                  <p className="text-blue-900 font-semibold mb-2">Leadership</p>
+                  <p className="text-green-900 font-semibold mb-2">Leadership</p>
                   <p className="text-gray-700">
                     Our diverse team of professionals brings together expertise from various fields, ensuring comprehensive solutions for our clients' needs.
                   </p>
@@ -140,7 +140,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Want to Learn More?
@@ -151,19 +151,19 @@ export default function About() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/business"
-              className="inline-block bg-white text-blue-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+              className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
             >
               Business & Expertise
             </Link>
             <Link
               href="/projects"
-              className="inline-block bg-white text-blue-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+              className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
             >
               Projects
             </Link>
             <Link
               href="/vision"
-              className="inline-block bg-white text-blue-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+              className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
             >
               Vision & Mission
             </Link>

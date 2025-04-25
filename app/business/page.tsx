@@ -8,26 +8,26 @@ export default function Business() {
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-900">
+            <Link href="/" className="text-2xl font-bold text-green-900">
               Aram Group
             </Link>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-600 hover:text-blue-900">
+              <Link href="/" className="text-gray-600 hover:text-green-900">
                 Home
               </Link>
-              <Link href="/summary" className="text-gray-600 hover:text-blue-900">
+              <Link href="/summary" className="text-gray-600 hover:text-green-900">
                 Summary Information
               </Link>
-              <Link href="/about" className="text-gray-600 hover:text-blue-900">
+              <Link href="/about" className="text-gray-600 hover:text-green-900">
                 About Us
               </Link>
-              <Link href="/business" className="text-blue-900 font-semibold">
+              <Link href="/business" className="text-green-900 font-semibold">
                 Business & Expertise
               </Link>
-              <Link href="/projects" className="text-gray-600 hover:text-blue-900">
+              <Link href="/projects" className="text-gray-600 hover:text-green-900">
                 Projects
               </Link>
-              <Link href="/vision" className="text-gray-600 hover:text-blue-900">
+              <Link href="/vision" className="text-gray-600 hover:text-green-900">
                 Vision & Mission
               </Link>
             </nav>
@@ -36,7 +36,7 @@ export default function Business() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Our Business & Expertise
@@ -69,7 +69,7 @@ export default function Business() {
                 <p className="text-gray-700 mb-6">
                   Our civil and structural construction services cover a wide range of essential infrastructure and building solutions. We specialize in creating durable, safe, and efficient structures—from foundations to full-scale systems—serving both public and private sector projects across the UAE.
                 </p>
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Our Services</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Our Services</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
                   <li>Complete buildings construction, repair, maintenance, and renovation</li>
                   <li>Drainage, sewage, and water system infrastructure</li>
@@ -94,7 +94,7 @@ export default function Business() {
                 <p className="text-gray-700 mb-6">
                   Our trading division connects markets and delivers value to clients across various sectors. We source high-quality products and provide tailored solutions to meet the specific needs of our clients.
                 </p>
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Our Approach</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Our Approach</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
                   <li>Market research and product sourcing</li>
                   <li>Quality assurance and verification</li>
@@ -133,7 +133,7 @@ export default function Business() {
                 <p className="text-gray-700 mb-6">
                   At Golden Aram Building Contracting, we provide expert contracting services focused on project supervision, efficient management, and above all, client satisfaction. We ensure every stage of the project is handled with precision, transparency, and professionalism.
                 </p>
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Our Services</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Our Services</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
                   <li>Complete project and site supervision</li>
                   <li>Strict quality control and safety measures</li>
@@ -156,7 +156,7 @@ export default function Business() {
                 <p className="text-gray-700 mb-6">
                   Our agricultural services division is dedicated to enhancing outdoor environments through sustainable landscaping, expert plant care, and creative floral solutions. We deliver tailored green space solutions for both commercial and residential projects with a focus on aesthetics, function, and long-term care.
                 </p>
-                <h3 className="text-xl font-bold text-blue-900 mb-4">Our Services</h3>
+                <h3 className="text-xl font-bold text-green-900 mb-4">Our Services</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
                   <li>Project landscaping design and execution</li>
                   <li>Landscaping maintenance and upkeep</li>
@@ -180,7 +180,7 @@ export default function Business() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Ready to Work With Us?
@@ -190,7 +190,7 @@ export default function Business() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+            className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
           >
             Get in Touch
           </Link>

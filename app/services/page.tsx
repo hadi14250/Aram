@@ -4,7 +4,7 @@ const services = [
   {
     title: 'Residential Construction',
     description: 'Building high-quality homes with attention to detail and modern amenities.',
-    color: 'bg-blue-100',
+    color: 'bg-green-100',
     features: [
       'Custom Home Building',
       'Home Renovations',
@@ -40,10 +40,10 @@ export default function Services() {
   return (
     <div className="min-h-screen pt-24 pb-16">
       {/* Header */}
-      <div className="bg-blue-600 text-white py-16">
+      <div className="bg-green-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
-          <p className="text-xl text-blue-100">
+          <p className="text-xl text-green-100">
             Comprehensive construction solutions for every project
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function Services() {
                   {service.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center text-gray-700">
                       <svg
-                        className="w-5 h-5 text-blue-600 mr-2"
+                        className="w-5 h-5 text-green-600 mr-2"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -95,7 +95,7 @@ export default function Services() {
           </p>
           <a
             href="/contact"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors"
+            className="inline-block bg-green-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-green-700 transition-colors"
           >
             Get in Touch
           </a>

@@ -9,7 +9,7 @@ const projects = [
     location: 'Downtown Business District',
     year: '2023',
     description: 'A state-of-the-art office complex featuring sustainable design and smart building technology.',
-    color: 'bg-blue-100',
+    color: 'bg-green-100',
   },
   {
     title: 'Luxury Residential Tower',
@@ -25,7 +25,7 @@ const projects = [
     location: 'River City',
     year: '2022',
     description: 'A modern bridge connecting two major districts, improving urban mobility.',
-    color: 'bg-purple-100',
+    color: 'bg-green-100',
   },
   {
     title: 'Shopping Mall Complex',
@@ -33,7 +33,7 @@ const projects = [
     location: 'Suburban Area',
     year: '2022',
     description: 'Modern retail space with entertainment facilities and parking infrastructure.',
-    color: 'bg-yellow-100',
+    color: 'bg-green-100',
   },
   {
     title: 'Eco-Friendly Housing',
@@ -41,7 +41,7 @@ const projects = [
     location: 'Green Valley',
     year: '2022',
     description: 'Sustainable residential community with solar power and water recycling systems.',
-    color: 'bg-teal-100',
+    color: 'bg-green-100',
   },
   {
     title: 'Metro Station Development',
@@ -49,7 +49,7 @@ const projects = [
     location: 'City Center',
     year: '2021',
     description: 'Modern metro station with integrated commercial spaces and accessibility features.',
-    color: 'bg-red-100',
+    color: 'bg-green-100',
   },
 ];
 
@@ -63,10 +63,10 @@ export default function Projects() {
   return (
     <div className="min-h-screen pt-24 pb-16">
       {/* Header */}
-      <div className="bg-blue-600 text-white py-16">
+      <div className="bg-green-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Projects</h1>
-          <p className="text-xl text-blue-100">
+          <p className="text-xl text-green-100">
             Showcasing our finest work in construction and development
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function Projects() {
             onClick={() => setFilter('all')}
             className={`px-6 py-2 rounded-full ${
               filter === 'all'
-                ? 'bg-blue-600 text-white'
+                ? 'bg-green-600 text-white'
                 : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
             }`}
           >
@@ -89,7 +89,7 @@ export default function Projects() {
             onClick={() => setFilter('commercial')}
             className={`px-6 py-2 rounded-full ${
               filter === 'commercial'
-                ? 'bg-blue-600 text-white'
+                ? 'bg-green-600 text-white'
                 : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
             }`}
           >
@@ -99,7 +99,7 @@ export default function Projects() {
             onClick={() => setFilter('residential')}
             className={`px-6 py-2 rounded-full ${
               filter === 'residential'
-                ? 'bg-blue-600 text-white'
+                ? 'bg-green-600 text-white'
                 : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
             }`}
           >
@@ -109,7 +109,7 @@ export default function Projects() {
             onClick={() => setFilter('infrastructure')}
             className={`px-6 py-2 rounded-full ${
               filter === 'infrastructure'
-                ? 'bg-blue-600 text-white'
+                ? 'bg-green-600 text-white'
                 : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
             }`}
           >
@@ -151,7 +151,7 @@ export default function Projects() {
           </p>
           <a
             href="/contact"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors"
+            className="inline-block bg-green-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-green-700 transition-colors"
           >
             Start Your Project
           </a>

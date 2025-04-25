@@ -8,26 +8,26 @@ export default function Summary() {
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-900">
+            <Link href="/" className="text-2xl font-bold text-green-900">
               Aram Group
             </Link>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-600 hover:text-blue-900">
+              <Link href="/" className="text-gray-600 hover:text-green-900">
                 Home
               </Link>
-              <Link href="/summary" className="text-blue-900 font-semibold">
+              <Link href="/summary" className="text-green-900 font-semibold">
                 Summary Information
               </Link>
-              <Link href="/about" className="text-gray-600 hover:text-blue-900">
+              <Link href="/about" className="text-gray-600 hover:text-green-900">
                 About Us
               </Link>
-              <Link href="/business" className="text-gray-600 hover:text-blue-900">
+              <Link href="/business" className="text-gray-600 hover:text-green-900">
                 Business & Expertise
               </Link>
-              <Link href="/projects" className="text-gray-600 hover:text-blue-900">
+              <Link href="/projects" className="text-gray-600 hover:text-green-900">
                 Projects
               </Link>
-              <Link href="/vision" className="text-gray-600 hover:text-blue-900">
+              <Link href="/vision" className="text-gray-600 hover:text-green-900">
                 Vision & Mission
               </Link>
             </nav>
@@ -36,7 +36,7 @@ export default function Summary() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Summary Information
@@ -213,7 +213,7 @@ export default function Summary() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Explore Our Services
@@ -223,7 +223,7 @@ export default function Summary() {
           </p>
           <Link
             href="/business"
-            className="inline-block bg-white text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+            className="inline-block bg-white text-green-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
           >
             View Our Business & Expertise
           </Link>
