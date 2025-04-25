@@ -10,38 +10,26 @@ const HeroSlider = () => {
   const [isButtonsVisible, setIsButtonsVisible] = useState(true);
   
   const slides = [
-    { 
-      id: 1, 
-      image: '/assets/arams_pages/aramprj4.png', 
-      alt: 'Aram Group Construction',
-      title: (
-        <>
-          At <span style={{ color: '#171717' }}>Aram Group</span>
-        </>
-      ),
-      description: 'Dedicated to integrity, performance, and value, we build lasting partnerships by providing tailored, high‑quality construction, agriculture, and trading solutions.'
+    {
+      image: '/assets/arams_pages/aramprj5.png',
+      title: 'At ARAM GROUP',
+      description: 'We are committed to integrity, performance, and value. Our success is built on long-term partnerships and client satisfaction.',
     },
-    { 
-      id: 2, 
-      image: '/assets/arams_pages/aramprj5.png', 
-      alt: 'Aram Group Trading',
-       title: 'Commitment to excellence',
-      description: 'Highest Standards in Contracting & Construction: We turn client ideas into reality through precision, quality, and a commitment to excellence in every project.'
+    {
+      image: '/assets/arams_pages/aramprj4.png',
+      title: 'Highest Standards in Contracting & Construction',
+      description: 'We maintain the highest standards in contracting and construction, ensuring quality and excellence in every project.',
     },
-    { 
-      id: 3, 
-      image: '/assets/arams_pages/aramprj15.png', 
-      alt: 'Aram Group Agricultural',
-      title: 'Aram3',
-      description: 'Agricultural expertise'
+    {
+      image: '/assets/arams_pages/aramprj15.png',
+      title: 'Not just a trading company',
+      description: 'We are more than just a trading company. We are a comprehensive solution provider across multiple sectors.',
     },
-    { 
-      id: 4, 
-      image: '/assets/arams_pages/aramprj10.jpg', 
-      alt: 'Aram Group Projects',
-      title: 'Aram4',
-      description: 'Comprehensive project management'
-    },
+    {
+      image: '/assets/arams_pages/aramprj10.jpg',
+      title: 'Read More',
+      description: 'Discover more about our services and how we can help you achieve your goals.',
+    }
   ];
 
   useEffect(() => {
@@ -72,14 +60,14 @@ const HeroSlider = () => {
     <div className="relative h-screen w-full overflow-hidden">
       {slides.map((slide, index) => (
         <div
-          key={slide.id}
+          key={index}
           className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
             index === currentSlide ? 'opacity-100' : 'opacity-0'
           }`}
         >
           <Image
             src={slide.image}
-            alt={slide.alt}
+            alt={slide.title}
             fill
             className="object-cover w-full h-full"
             priority={index === 0}

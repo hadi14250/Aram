@@ -96,7 +96,7 @@ export default function Summary() {
               <div className="p-8 order-2 md:order-1">
                 <div className="flex justify-center mb-6">
                   <Image
-                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    src="/assets/logo/ARAM.logo.jpg"
                     alt="Aram Group Logo"
                     width={250}
                     height={180}
@@ -128,7 +128,7 @@ export default function Summary() {
               <div className="p-8">
                 <div className="flex justify-center mb-6">
                   <Image
-                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19 (1).jpeg"
                     alt="Aram Group Logo"
                     width={250}
                     height={180}
@@ -160,7 +160,7 @@ export default function Summary() {
               <div className="p-8 order-2 md:order-1">
                 <div className="flex justify-center mb-6">
                   <Image
-                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    src="/assets/logo/Golden Aram Building Contracting.png"
                     alt="Aram Group Logo"
                     width={250}
                     height={180}
@@ -192,7 +192,7 @@ export default function Summary() {
               <div className="p-8">
                 <div className="flex justify-center mb-6">
                   <Image
-                    src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                    src="/assets/logo/Ararm Golden Line Agricutural.png"
                     alt="Aram Group Logo"
                     width={250}
                     height={180}
