@@ -60,9 +60,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">At ARAM GROUP</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Civil & Structural Construction</h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                  We are committed to integrity, performance, and value. Our success is built on long-term partnerships and client satisfaction.
+                Specializing in building construction, repairs, maintenance, and renovations.
                 </p>
               </div>
               <div className="text-center mt-auto">
@@ -85,9 +85,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Highest Standards in Contracting & Construction</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">General Trading</h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                  We maintain the highest standards in contracting and construction, ensuring quality and excellence in every project.
+                  Delivering quality products and tailored solutions across diverse industries, building trusted connections and ensuring reliable service every step of the way.
                 </p>
               </div>
               <div className="text-center mt-auto">
@@ -110,9 +110,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Not just a trading company</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Building Contracting</h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                  We are more than just a trading company. We are a comprehensive solution provider across multiple sectors.
+                Expertly managing construction, renovation, and maintenance projects with a focus on quality, efficiency, and long-term value to ensure complete client satisfaction.
                 </p>
               </div>
               <div className="text-center mt-auto">
@@ -135,9 +135,9 @@ export default function Home() {
                 />
               </div>
               <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">About Us</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Agricultural Services</h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                  Founded in 2006 by Engr. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
+                Providing reliable support and innovative solutions for farming and agribusiness, focused on productivity, sustainability, and complete client satisfaction.
                 </p>
               </div>
               <div className="text-center mt-auto">
@@ -414,7 +414,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                  Your Address Here
+                  <Link href="https://maps.app.goo.gl/8NXtHdhZXJFPeAqn8?g_st=com.google.maps.preview.copy">
+                  location
+                  </Link>
                 </li>
               </ul>
             </div>

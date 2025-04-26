@@ -25,11 +25,6 @@ const HeroSlider = () => {
       title: 'Not just a trading company',
       description: 'We are more than just a trading company. We are a comprehensive solution provider across multiple sectors.',
     },
-    {
-      image: '/assets/arams_pages/aramprj10.jpg',
-      title: 'Read More',
-      description: 'Discover more about our services and how we can help you achieve your goals.',
-    }
   ];
 
   useEffect(() => {
