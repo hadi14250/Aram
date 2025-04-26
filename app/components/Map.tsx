@@ -1,62 +1,26 @@
 "use client";
 
-import { useEffect, useRef } from 'react';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
+import { useEffect, useState } from 'react';
 
-const Map = () => {
-  const mapRef = useRef<HTMLDivElement>(null);
-  const mapInstance = useRef<L.Map | null>(null);
+export default function Map() {
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    if (!mapRef.current) return;
-
-    // Initialize the map
-    mapInstance.current = L.map(mapRef.current, {
-      zoomControl: true,
-      scrollWheelZoom: true,
-      attributionControl: false,
-      dragging: true,
-      doubleClickZoom: true
-    }).setView([25.261050, 55.319000], 15);
-
-    // Add OpenStreetMap tiles with custom style
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      className: 'map-tiles'
-    }).addTo(mapInstance.current);
-
-    // Add marker with custom icon
-    const marker = L.marker([25.261050, 55.319000], {
-      icon: L.divIcon({
-        className: 'custom-marker',
-        html: `<div class="w-4 h-4 bg-green-600 rounded-full border-2 border-white shadow-lg"></div>`,
-        iconSize: [16, 16],
-        iconAnchor: [8, 8]
-      })
-    }).addTo(mapInstance.current);
-
-    // Add popup with custom style
-    marker.bindPopup(`
-      <div class="p-2 bg-gray-900 text-white rounded-lg">
-        <h3 class="font-bold text-green-400">Aram Group Office</h3>
-        <p class="text-sm text-gray-300">4th St, Dubai, UAE</p>
-      </div>
-    `).openPopup();
-
-    // Cleanup function
-    return () => {
-      if (mapInstance.current) {
-        mapInstance.current.remove();
-      }
-    };
+    setIsClient(true);
   }, []);
 
-  return (
-    <div className="w-full h-full">
-      <div ref={mapRef} className="w-full h-full" />
-    </div>
-  );
-};
+  if (!isClient) {
+    return <div className="h-full bg-gray-100 animate-pulse rounded-lg" />;
+  }
 
-export default Map; 
+  return (
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.2922926156740714!3d48.858370079287466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1647891215513!5m2!1sen!2sus"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+    />
+  );
+} 
