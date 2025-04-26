@@ -1,0 +1,5 @@
+.next
+node_modules
+out
+*.config.js
+*.config.ts 
