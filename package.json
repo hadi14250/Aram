@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/leaflet": "^1.9.17",
+    "emailjs-com": "^3.2.0",
     "leaflet": "^1.9.4",
     "next": "15.3.0",
     "react": "^19.0.0",

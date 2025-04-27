@@ -237,7 +237,7 @@ export default function Projects() {
       {/* Call to Action */}
       <div className="bg-gray-50 py-16 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Have a Project in Mind?</h2>
+        <h2 className="text-3xl font-bold mb-4 text-black">Have a Project in Mind?</h2>
           <p className="text-xl text-gray-600 mb-8">
             Let's discuss how we can bring your vision to life
           </p>
