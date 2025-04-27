@@ -163,11 +163,12 @@ export default function About() {
               Projects
             </Link>
             <Link
-              href="/vision"
-              className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
-            >
-              Vision & Mission
-            </Link>
+            href="/#vision"
+            className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+          >
+            Vision & Mission
+          </Link>
+
           </div>
         </div>
       </section>
