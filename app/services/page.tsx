@@ -94,7 +94,7 @@ export default function Services() {
             Contact us today to discuss your construction needs
           </p>
           <a
-            href="/contact"
+            href="/contacts"
             className="inline-block bg-green-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-green-700 transition-colors"
           >
             Get in Touch
