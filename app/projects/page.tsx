@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -10,22 +11,7 @@ const projects = [
     year: '2023',
     description: 'A state-of-the-art office complex featuring sustainable design and smart building technology.',
     color: 'bg-green-100',
-  },
-  {
-    title: 'Luxury Residential Tower',
-    category: 'residential',
-    location: 'Waterfront District',
-    year: '2023',
-    description: 'Premium residential apartments with panoramic views and world-class amenities.',
-    color: 'bg-green-100',
-  },
-  {
-    title: 'City Bridge Project',
-    category: 'infrastructure',
-    location: 'River City',
-    year: '2022',
-    description: 'A modern bridge connecting two major districts, improving urban mobility.',
-    color: 'bg-green-100',
+    image: '/images/projects/project-1.png',
   },
   {
     title: 'Shopping Mall Complex',
@@ -34,6 +20,25 @@ const projects = [
     year: '2022',
     description: 'Modern retail space with entertainment facilities and parking infrastructure.',
     color: 'bg-green-100',
+    image: '/images/projects/project-2.png',
+  },
+  {
+    title: 'Luxury Residential Tower',
+    category: 'residential',
+    location: 'Waterfront District',
+    year: '2023',
+    description: 'Premium residential apartments with panoramic views and world-class amenities.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-3.png',
+  },
+  {
+    title: 'City Bridge Project',
+    category: 'infrastructure',
+    location: 'River City',
+    year: '2022',
+    description: 'A modern bridge connecting two major districts, improving urban mobility.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-4.png',
   },
   {
     title: 'Eco-Friendly Housing',
@@ -42,6 +47,7 @@ const projects = [
     year: '2022',
     description: 'Sustainable residential community with solar power and water recycling systems.',
     color: 'bg-green-100',
+    image: '/images/projects/project-5.png',
   },
   {
     title: 'Metro Station Development',
@@ -50,6 +56,80 @@ const projects = [
     year: '2021',
     description: 'Modern metro station with integrated commercial spaces and accessibility features.',
     color: 'bg-green-100',
+    image: '/images/projects/project-6.png',
+  },
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-7.png',
+  },
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-8.png',
+  },
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-9.png',
+  },
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-10.png',
+  },
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-11.png',
+  },
+
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-13.png',
+  },
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-14.png',
+  },
+  {
+    title: 'Metro Station Development',
+    category: 'infrastructure',
+    location: 'City Center',
+    year: '2021',
+    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
+    color: 'bg-green-100',
+    image: '/images/projects/project-15.png',
   },
 ];
 
@@ -123,9 +203,19 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className={`h-64 ${project.color} flex items-center justify-center`}>
-                <div className="text-4xl font-bold text-gray-700">{project.title.split(' ')[0]}</div>
-              </div>
+
+
+          <div className="h-120 w-full relative">
+            <Image
+              src={project.image}
+              alt={project.title}
+              layout="fill"
+              objectFit="cover"
+              className="w-full h-full"
+            />
+          </div>
+
+              
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-semibold">{project.title}</h3>
