@@ -189,14 +189,15 @@ export default function Home() {
               </Link>
             </div>
             <div className="relative h-64 sm:h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
-              <Image
-                src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
-                alt="About Aram Group"
-                fill
-                className="object-cover transform hover:scale-105 transition-transform duration-700"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent"></div>
-            </div>
+            <Image
+              src="/images/aram_transparent.png"
+              alt="About Aram Group"
+              fill
+              className="object-contain transform hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent"></div>
+          </div>
+
           </div>
         </div>
       </section>
