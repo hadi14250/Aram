@@ -77,7 +77,7 @@ export default function Home() {
             <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
               <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
                 <Image
-                  src="/images/services-img5.jpg"
+                  src="/images/general_trading_picture.jpeg"
                   alt="Construction"
                   width={160}
                   height={160}
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
               <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
                 <Image
-                  src="/images/services-img6.jpg"
+                  src="/images/building_contracting_picture.jpeg"
                   alt="Trading"
                   width={160}
                   height={160}
@@ -127,7 +127,7 @@ export default function Home() {
             <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
               <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
                 <Image
-                  src="/images/background.jpg"
+                  src="/images/agircultural_services_picture.jpeg"
                   alt="About Us"
                   width={160}
                   height={160}
