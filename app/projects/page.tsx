@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Footer from '../components/footer';
 
 const projects = [
   {
@@ -248,6 +249,7 @@ export default function Projects() {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   );
 } 

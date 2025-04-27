@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Footer from '../components/footer';
 
 export default function Summary() {
   return (
@@ -244,6 +245,10 @@ export default function Summary() {
           </Link>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
+
     </div>
   );
 } 
