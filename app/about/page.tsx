@@ -66,7 +66,7 @@ export default function About() {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/images/about-aram.jpg"
+                src="/images/background.jpg"
                 alt="Aram Group Office"
                 fill
                 className="object-cover"
