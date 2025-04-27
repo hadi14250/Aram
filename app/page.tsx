@@ -47,111 +47,121 @@ export default function Home() {
 
       {/* Summary Information */}
       <section className="relative -mt-16 sm:-mt-32 z-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
-            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
-                <Image
-                  src="/images/services-img1.png"
-                  alt="Aram Group"
-                  width={160}
-                  height={160}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Civil & Structural Construction</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                Specializing in building construction, repairs, maintenance, and renovations.
-                </p>
-              </div>
-              <div className="text-center mt-auto">
-                <Link 
-                  href="/about" 
-                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
-                >
-                  Read More
-                </Link>
-              </div>
-            </div>
-            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
-                <Image
-                  src="/images/general_trading_picture.jpeg"
-                  alt="Construction"
-                  width={160}
-                  height={160}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">General Trading</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                  Delivering quality products and tailored solutions across diverse industries, building trusted connections and ensuring reliable service every step of the way.
-                </p>
-              </div>
-              <div className="text-center mt-auto">
-                <Link 
-                  href="/business" 
-                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
-                >
-                  Read More
-                </Link>
-              </div>
-            </div>
-            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
-                <Image
-                  src="/images/building_contracting_picture.jpeg"
-                  alt="Trading"
-                  width={160}
-                  height={160}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Building Contracting</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                Expertly managing construction, renovation, and maintenance projects with a focus on quality, efficiency, and long-term value to ensure complete client satisfaction.
-                </p>
-              </div>
-              <div className="text-center mt-auto">
-                <Link 
-                  href="/business" 
-                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
-                >
-                  Read More
-                </Link>
-              </div>
-            </div>
-            <div className="bg-white/90 backdrop-blur-sm p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
-              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg overflow-hidden mb-4 sm:mb-6 mx-auto">
-                <Image
-                  src="/images/agircultural_services_picture.jpeg"
-                  alt="About Us"
-                  width={160}
-                  height={160}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex-grow">
-                <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Agricultural Services</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
-                Providing reliable support and innovative solutions for farming and agribusiness, focused on productivity, sustainability, and complete client satisfaction.
-                </p>
-              </div>
-              <div className="text-center mt-auto">
-                <Link 
-                  href="/about" 
-                  className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
-                >
-                  Read More
-                </Link>
-              </div>
-            </div>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
+      
+      {/* Card 1 */}
+      <div className="bg-white/90 backdrop-blur-sm p-0 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full overflow-hidden">
+        <div className="w-full h-48 sm:h-64 relative">
+          <Image
+            src="/images/services-img1.png"
+            alt="Aram Group"
+            layout="fill"
+            objectFit="cover"
+            className="w-full h-full"
+          />
+        </div>
+        <div className="p-4 sm:p-8 flex flex-col flex-grow">
+          <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Civil & Structural Construction</h3>
+          <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
+            Specializing in building construction, repairs, maintenance, and renovations.
+          </p>
+          <div className="text-center mt-auto">
+            <Link 
+              href="/about" 
+              className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
+            >
+              Read More
+            </Link>
           </div>
         </div>
-      </section>
+      </div>
+
+      {/* Card 2 */}
+      <div className="bg-white/90 backdrop-blur-sm p-0 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full overflow-hidden">
+        <div className="w-full h-48 sm:h-64 relative">
+          <Image
+            src="/images/general_trading_picture.jpeg"
+            alt="General Trading"
+            layout="fill"
+            objectFit="cover"
+            className="w-full h-full"
+          />
+        </div>
+        <div className="p-4 sm:p-8 flex flex-col flex-grow">
+          <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">General Trading</h3>
+          <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
+            Delivering quality products and tailored solutions across diverse industries, building trusted connections and ensuring reliable service every step of the way.
+          </p>
+          <div className="text-center mt-auto">
+            <Link 
+              href="/business" 
+              className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
+            >
+              Read More
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 3 */}
+      <div className="bg-white/90 backdrop-blur-sm p-0 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full overflow-hidden">
+        <div className="w-full h-48 sm:h-64 relative">
+          <Image
+            src="/images/building_contracting_picture.jpeg"
+            alt="Building Contracting"
+            layout="fill"
+            objectFit="cover"
+            className="w-full h-full"
+          />
+        </div>
+        <div className="p-4 sm:p-8 flex flex-col flex-grow">
+          <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Building Contracting</h3>
+          <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
+            Expertly managing construction, renovation, and maintenance projects with a focus on quality, efficiency, and long-term value to ensure complete client satisfaction.
+          </p>
+          <div className="text-center mt-auto">
+            <Link 
+              href="/business" 
+              className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
+            >
+              Read More
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 4 */}
+      <div className="bg-white/90 backdrop-blur-sm p-0 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full overflow-hidden">
+        <div className="w-full h-48 sm:h-64 relative">
+          <Image
+            src="/images/agircultural_services_picture.jpeg"
+            alt="Agricultural Services"
+            layout="fill"
+            objectFit="cover"
+            className="w-full h-full"
+          />
+        </div>
+        <div className="p-4 sm:p-8 flex flex-col flex-grow">
+          <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Agricultural Services</h3>
+          <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 text-center">
+            Providing reliable support and innovative solutions for farming and agribusiness, focused on productivity, sustainability, and complete client satisfaction.
+          </p>
+          <div className="text-center mt-auto">
+            <Link 
+              href="/about" 
+              className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
+            >
+              Read More
+            </Link>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* About Section */}
       <section className="py-10 sm:py-20 bg-gradient-to-b from-gray-100 to-white">
