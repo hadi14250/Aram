@@ -203,15 +203,16 @@ export default function Summary() {
               </div>
               <div className="p-8">
                 <div className="flex justify-center mb-6">
-                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
-                    <Image
-                      src="/assets/logo/Ararm Golden Line Agricutural.png"
-                      alt="Aram Group Logo"
-                      width={220}
-                      height={220}
-                      className="max-w-[220px] max-h-[220px] object-contain"
-                    />
-                  </div>
+                <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                <Image
+                  src="/assets/logo/Ararm Golden Line Agricutural.png"
+                  alt="Aram Group Logo"
+                  width={250}
+                  height={250}
+                  className="object-contain w-full h-full"
+                />
+              </div>
+
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line Agricultural Services</h2>
                 <p className="text-gray-700 mb-6">
