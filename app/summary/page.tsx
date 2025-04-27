@@ -65,7 +65,7 @@ export default function Summary() {
                 <div className="flex justify-center mb-6">
                   <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
                     <Image
-                      src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19.jpeg"
+                      src="/images/aram_transparent.png"
                       alt="Aram Group Logo"
                       width={220}
                       height={220}
@@ -133,7 +133,7 @@ export default function Summary() {
                 <div className="flex justify-center mb-6">
                   <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
                     <Image
-                      src="/assets/logo/WhatsApp Image 2025-04-19 at 11.37.19 (1).jpeg"
+                      src="/assets/logo/aram-golden.png"
                       alt="Aram Group Logo"
                       width={220}
                       height={220}
