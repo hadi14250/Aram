@@ -63,15 +63,16 @@ export default function Summary() {
               </div>
               <div className="p-8">
                 <div className="flex justify-center mb-6">
-                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
-                    <Image
-                      src="/images/aram_transparent.png"
-                      alt="Aram Group Logo"
-                      width={220}
-                      height={220}
-                      className="max-w-[220px] max-h-[220px] object-contain"
-                    />
-                  </div>
+                <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                <Image
+                  src="/images/aram_transparent.png"
+                  alt="Aram Group Logo"
+                  width={250}
+                  height={250}
+                  className="object-contain w-full h-full"
+                />
+              </div>
+
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Group</h2>
                 <p className="text-gray-700 mb-6">
@@ -97,15 +98,16 @@ export default function Summary() {
               </div>
               <div className="p-8 order-2 md:order-1">
                 <div className="flex justify-center mb-6">
-                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
-                    <Image
-                      src="/assets/logo/ARAM.logo.jpg"
-                      alt="Aram Group Logo"
-                      width={220}
-                      height={220}
-                      className="max-w-[220px] max-h-[220px] object-contain"
-                    />
-                  </div>
+                <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+              <Image
+                src="/assets/logo/ARAM.logo.jpg"
+                alt="Aram Group Logo"
+                width={250}
+                height={250}
+                className="object-contain w-full h-full"
+              />
+            </div>
+
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Construction</h2>
                 <p className="text-gray-700 mb-6">
@@ -131,15 +133,16 @@ export default function Summary() {
               </div>
               <div className="p-8">
                 <div className="flex justify-center mb-6">
-                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
-                    <Image
-                      src="/assets/logo/aram-golden.png"
-                      alt="Aram Group Logo"
-                      width={220}
-                      height={220}
-                      className="max-w-[220px] max-h-[220px] object-contain"
-                    />
-                  </div>
+                <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+              <Image
+                src="/assets/logo/aram-golden.png"
+                alt="Aram Group Logo"
+                width={250}
+                height={250}
+                className="object-contain w-full h-full"
+              />
+            </div>
+
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line General Trading</h2>
                 <p className="text-gray-700 mb-6">
@@ -165,15 +168,16 @@ export default function Summary() {
               </div>
               <div className="p-8 order-2 md:order-1">
                 <div className="flex justify-center mb-6">
-                  <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
-                    <Image
-                      src="/assets/logo/Golden Aram Building Contracting.png"
-                      alt="Aram Group Logo"
-                      width={220}
-                      height={220}
-                      className="max-w-[220px] max-h-[220px] object-contain"
-                    />
-                  </div>
+                <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+                <Image
+                  src="/assets/logo/Golden Aram Building Contracting.png"
+                  alt="Aram Group Logo"
+                  width={250}
+                  height={250}
+                  className="object-contain w-full h-full"
+                />
+              </div>
+
                 </div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Golden Aram Building Contracting</h2>
                 <p className="text-gray-700 mb-6">
