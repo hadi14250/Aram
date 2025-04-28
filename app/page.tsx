@@ -167,27 +167,29 @@ export default function Home() {
       {/* About Section */}
       <section className="py-10 sm:py-20 bg-gradient-to-b from-gray-100 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
+            <div className="space-y-4 sm:space-y-6">
           <div className="text-center mb-8 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-2 sm:mb-4">About Us</h2>
             <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
-            <p className="mt-2 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-3xl mx-auto">
+          </div>
+            <p className="text-sm sm:text-base text-gray-600">
               Founded in 2006 by Engr. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="space-y-4 sm:space-y-6">
               <p className="text-sm sm:text-base text-gray-600">
                 Our journey began with a vision to provide exceptional construction services. Today, we have expanded our expertise to include trading and agricultural services, becoming a trusted name in multiple industries.
               </p>
               <p className="text-sm sm:text-base text-gray-600">
                 With a team of experienced professionals and a commitment to quality, we continue to deliver excellence in every project we undertake.
               </p>
+              <div className="text-center">
               <Link 
                 href="/about" 
                 className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
               >
                 Learn More About Us
               </Link>
+              </div>
             </div>
             <div className="relative h-64 sm:h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
             <Image
@@ -251,6 +253,9 @@ export default function Home() {
             </div>
             <div className="bg-white p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 sm:mb-6 mx-auto">
+
+
+                
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -272,11 +277,11 @@ export default function Home() {
               </p>
             </div>
             <div className="bg-white p-4 sm:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 sm:mb-6 mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
+
+                        <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 sm:mb-6 mx-auto">
+                        <img src="/images/flower.png" alt="Icon" className="h-8 w-8" />
+            </div>
+
               <h3 className="text-lg sm:text-xl font-bold text-green-900 mb-2 sm:mb-4 text-center">Aram Golden Line Agricultural Services</h3>
               <p className="text-sm sm:text-base text-gray-600 text-center">
                 Delivering innovative agricultural solutions and services to meet modern farming needs.

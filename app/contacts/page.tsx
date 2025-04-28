@@ -120,7 +120,8 @@ export default function Contacts() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Address</h3>
-                    <p className="text-gray-600">Your Address Here</p>
+                    <p className="text-gray-600">Deira, Al Rigga, Al Maktoum rd</p>
+                    <p className="text-gray-600">Damas Dubai Tower</p>
                   </div>
                 </div>
 
