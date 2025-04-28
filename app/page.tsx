@@ -293,69 +293,67 @@ export default function Home() {
 
       {/* Projects Section */}
       <section className="py-10 sm:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-2 sm:mb-4">Projects</h2>
-            <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
-            <p className="mt-2 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-3xl mx-auto">
-              Explore our portfolio of successful projects
-            </p>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-8 sm:mb-16">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-green-900 mb-2 sm:mb-4">Projects</h2>
+      <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
+      <p className="mt-2 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-3xl mx-auto">
+        Explore our portfolio of successful projects
+      </p>
+    </div>
+
+    {/* Masonry Layout */}
+    <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+      {[
+        {
+          src: '/assets/porjects/aramprj1.png',
+          title: 'Construction Project',
+          description: 'Years of experience in construction',
+        },
+        {
+          src: '/assets/porjects/aramprj8.png',
+          title: 'Trading Project',
+          description: 'Premium materials and standards',
+        },
+        {
+          src: '/assets/porjects/aramprj9.png',
+          title: 'Agricultural Project',
+          description: 'Reliable project completion',
+        },
+      ].map((item, idx) => (
+        <div
+          key={idx}
+          className="group relative overflow-hidden rounded-xl shadow-lg break-inside-avoid"
+        >
+          <div className="relative w-full">
+            <Image
+              src={item.src}
+              alt={item.title}
+              width={600}
+              height={400}
+              className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700"
+            />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8">
-            <div className="group relative h-64 sm:h-80 rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/assets/porjects/aramprj1.png"
-                alt="Project 1"
-                fill
-                className="object-cover transform group-hover:scale-110 transition-transform duration-700"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                  <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Construction Project</h3>
-                  <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Years of experience in construction</p>
-                </div>
-              </div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+            <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+              <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">{item.title}</h3>
+              <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">{item.description}</p>
             </div>
-            <div className="group relative h-64 sm:h-80 rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/assets/porjects/aramprj8.png"
-                alt="Project 2"
-                fill
-                className="object-cover transform group-hover:scale-110 transition-transform duration-700"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                  <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Trading Project</h3>
-                  <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Premium materials and standards</p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative h-64 sm:h-80 rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/assets/porjects/aramprj9.png"
-                alt="Project 3"
-                fill
-                className="object-cover transform group-hover:scale-110 transition-transform duration-700"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                  <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Agricultural Project</h3>
-                  <h3 className="text-white text-2xl font-bold mb-2">Agricultural Project</h3>
-                  <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Reliable project completion</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-12">
-            <Link 
-              href="/projects" 
-              className="inline-block bg-green-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
-            >
-              View All Projects
-            </Link>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+
+    <div className="text-center mt-12">
+      <a 
+        href="/projects" 
+        className="inline-block bg-green-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+      >
+        View All Projects
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-green-900 to-green-800 text-white relative overflow-hidden">
