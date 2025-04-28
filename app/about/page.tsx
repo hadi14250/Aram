@@ -58,10 +58,10 @@ export default function About() {
                 Since 2006, Aram Construction L.L.C has carried out numerous contracting projects across various fields, especially in construction infrastructure works, which have fostered strong relationships with clients through trust, satisfaction, and consistent quality.
               </p>
               <p className="text-gray-700 mb-6">
-                Over the years, Aram Construction has become a trusted name in contracting, guided by its Founder & Owner, Engr. Mohamad Alhalouch, who brings long-term experience earned through dedication and hard work throughout the United Arab Emirates.
+                Over the years, Aram Construction has become a trusted name in contracting, guided by its Founder & Owner, Eng. Mohamad Alhalouch, who brings long-term experience earned through dedication and hard work throughout the United Arab Emirates.
               </p>
               <p className="text-gray-700">
-                With a solid foundation of success, Engr. Mohamad Alhalouch expanded his vision beyond construction, growing the company's reach into contracting, agricultural services, and general trading. This diversification reflects our commitment to delivering excellence, innovation, and value across all sectors we serve.
+                With a solid foundation of success, Eng. Mohamad Alhalouch expanded his vision beyond construction, growing the company's reach into contracting, agricultural services, and general trading. This diversification reflects our commitment to delivering excellence, innovation, and value across all sectors we serve.
               </p>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
@@ -105,16 +105,16 @@ export default function About() {
                 <div className="relative h-32 w-32 rounded-full overflow-hidden mr-6 flex-shrink-0">
                   <Image
                     src="/images/services-img1.png"
-                    alt="Engr. Mohamad Alhalouch"
+                    alt="Eng. Mohamad Alhalouch"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Engr. Mohamad Alhalouch</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Eng. Mohamad Alhalouch</h3>
                   <p className="text-green-900 font-semibold mb-2">Founder & Owner</p>
                   <p className="text-gray-700">
-                    With extensive experience in the construction industry, Engr. Mohamad Alhalouch leads Aram Group with vision and expertise, guiding the company's growth and success.
+                    With extensive experience in the construction industry, Eng. Mohamad Alhalouch leads Aram Group with vision and expertise, guiding the company's growth and success.
                   </p>
                 </div>
               </div>

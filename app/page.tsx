@@ -174,7 +174,7 @@ export default function Home() {
             <div className="w-16 sm:w-24 h-1 bg-green-900 mx-auto mb-4 sm:mb-6"></div>
           </div>
             <p className="text-sm sm:text-base text-gray-600">
-              Founded in 2006 by Engr. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
+              Founded in 2006 by Eng. Mohamad Alhalouch, Aram Group has grown from a small contracting company to a diversified business group.
             </p>
               <p className="text-sm sm:text-base text-gray-600">
                 Our journey began with a vision to provide exceptional construction services. Today, we have expanded our expertise to include trading and agricultural services, becoming a trusted name in multiple industries.
