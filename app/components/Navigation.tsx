@@ -23,18 +23,21 @@ const Navigation = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 bg-white ${isScrolled ? 'shadow-lg backdrop-blur-sm bg-white/90' : ''}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <Link href="/" className="flex items-center">
+        
+        <Link href="/" className="flex items-center">
+          <div className="relative w-20 h-20 sm:w-40 sm:h-40">
             <Image
               src="/images/aram_transparent.png"
               alt="About Us"
-              width={160}
-              height={160}
-              className="w-full h-full object-cover"
+              fill
+              className="object-contain"
             />
-            <span className="text-lg sm:text-2xl font-bold text-green-900">
-              {/* Aram Group */}
-            </span>
-          </Link>
+          </div>
+          <span className="text-base sm:text-2xl font-bold text-green-900 ml-2">
+            {/* Aram Group */}
+          </span>
+        </Link>
+
 
           <div className="hidden md:flex items-center space-x-8">
             {[
