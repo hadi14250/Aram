@@ -8,36 +8,6 @@ import Footer from './components/footer';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* Header */}
-      <header className="bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
-          <div className="flex flex-col sm:flex-row justify-between items-center">
-            <Link href="/" className="text-xl sm:text-2xl font-bold text-green-900 hover:text-green-700 transition-colors duration-300 mb-4 sm:mb-0">
-              Aram Group
-            </Link>
-            <nav className="hidden md:flex space-x-4 sm:space-x-8">
-              <Link href="/" className="text-green-900 font-semibold border-b-2 border-green-900">
-                Home
-              </Link>
-              <Link href="/summary" className="text-gray-600 hover:text-green-900 hover:border-b-2 hover:border-green-900 transition-all duration-300">
-                Summary Information
-              </Link>
-              <Link href="/about" className="text-gray-600 hover:text-green-900 hover:border-b-2 hover:border-green-900 transition-all duration-300">
-                About Us
-              </Link>
-              <Link href="/business" className="text-gray-600 hover:text-green-900 hover:border-b-2 hover:border-green-900 transition-all duration-300">
-                Business & Expertise
-              </Link>
-              <Link href="/projects" className="text-gray-600 hover:text-green-900 hover:border-b-2 hover:border-green-900 transition-all duration-300">
-                Projects
-              </Link>
-              <Link href="/vision" className="text-gray-600 hover:text-green-900 hover:border-b-2 hover:border-green-900 transition-all duration-300">
-                Vision & Mission
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
 
       {/* Hero Section */}
       <section className="relative h-[50vh] sm:h-screen overflow-hidden">
