@@ -123,15 +123,6 @@ const projects = [
     color: 'bg-green-100',
     image: '/images/projects/project-14.png',
   },
-  {
-    title: 'Metro Station Development',
-    category: 'infrastructure',
-    location: 'City Center',
-    year: '2021',
-    description: 'Modern metro station with integrated commercial spaces and accessibility features.',
-    color: 'bg-green-100',
-    image: '/images/projects/project-15.png',
-  },
 ];
 
 export default function Projects() {
