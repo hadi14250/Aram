@@ -56,7 +56,7 @@ export default function Business() {
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="relative h-96">
                 <Image
-                  src="/images/services-img1.png"
+                  src="/images/aram-construction.jpeg"
                   alt="Aram Construction"
                   fill
                   className="object-cover"
@@ -106,7 +106,7 @@ export default function Business() {
               </div>
               <div className="relative h-96 order-1 md:order-2">
                 <Image
-                  src="/images/services-img5.jpg"
+                  src="/images/general-trading.jpeg"
                   alt="Aram Golden Line General Trading"
                   fill
                   className="object-cover"
@@ -120,7 +120,7 @@ export default function Business() {
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="relative h-96">
                 <Image
-                  src="/images/services-img6.jpg"
+                  src="/images/building-contracting.jpeg"
                   alt="Golden Aram Building Contracting"
                   fill
                   className="object-cover"
@@ -169,7 +169,7 @@ export default function Business() {
               </div>
               <div className="relative h-96 order-1 md:order-2">
                 <Image
-                  src="/images/services-img6.jpg"
+                  src="/images/agricultrual.jpeg"
                   alt="Aram Golden Line Agricultural Services"
                   fill
                   className="object-cover"
