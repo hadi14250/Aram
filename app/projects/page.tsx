@@ -201,7 +201,6 @@ export default function Projects() {
                   alt={project.title}
                   width={600}
                   height={400}
-                  layout="responsive"
                   className="w-full h-auto"
                 />
               </div>

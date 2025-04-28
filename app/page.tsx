@@ -4,6 +4,7 @@ import HeroSlider from "./components/HeroSlider";
 import Map from './components/Map';
 import InfoBlocks from './components/InfoBlocks';
 import Footer from './components/footer';
+import Partners from './components/partners';
 
 export default function Home() {
   return (
@@ -27,9 +28,8 @@ export default function Home() {
           <Image
             src="/images/services-img1.png"
             alt="Aram Group"
-            layout="fill"
-            objectFit="cover"
-            className="w-full h-full"
+            fill
+            className="w-full h-full object-cover"
           />
         </div>
         <div className="p-4 sm:p-8 flex flex-col flex-grow">
@@ -54,9 +54,8 @@ export default function Home() {
           <Image
             src="/images/general_trading_picture.jpeg"
             alt="General Trading"
-            layout="fill"
-            objectFit="cover"
-            className="w-full h-full"
+            fill
+            className="w-full h-full object-cover"
           />
         </div>
         <div className="p-4 sm:p-8 flex flex-col flex-grow">
@@ -81,9 +80,8 @@ export default function Home() {
           <Image
             src="/images/building_contracting_picture.jpeg"
             alt="Building Contracting"
-            layout="fill"
-            objectFit="cover"
-            className="w-full h-full"
+            fill
+            className="w-full h-full object-cover"
           />
         </div>
         <div className="p-4 sm:p-8 flex flex-col flex-grow">
@@ -108,9 +106,8 @@ export default function Home() {
           <Image
             src="/images/agircultural_services_picture.jpeg"
             alt="Agricultural Services"
-            layout="fill"
-            objectFit="cover"
-            className="w-full h-full"
+            fill
+            className="w-full h-full object-cover"
           />
         </div>
         <div className="p-4 sm:p-8 flex flex-col flex-grow">
@@ -324,6 +321,8 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+  < Partners />
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-green-900 to-green-800 text-white relative overflow-hidden">
