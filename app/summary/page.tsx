@@ -87,7 +87,7 @@ export default function Summary() {
           </div>
 
           {/* Aram Construction */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
+          <div id="aram-construction" className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="relative h-96 order-1 md:order-2">
                 <Image
@@ -122,7 +122,7 @@ export default function Summary() {
           </div>
 
           {/* Aram Golden Line General Trading */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
+          <div id="aram-general-trading" className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="relative h-96">
                 <Image
@@ -157,7 +157,7 @@ export default function Summary() {
           </div>
 
           {/* Golden Aram Building Contracting */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
+          <div id="aram-building-contracting" className="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="relative h-96 order-1 md:order-2">
                 <Image
@@ -192,7 +192,7 @@ export default function Summary() {
           </div>
 
           {/* Aram Golden Line Agricultural Services */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div id="aram-agricultural-services" className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="relative h-96">
                 <Image

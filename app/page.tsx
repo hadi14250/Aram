@@ -69,7 +69,7 @@ export default function Home() {
           </p>
           <div className="text-center mt-auto">
             <Link 
-              href="/about" 
+             href="/summary#aram-construction"
               className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
             >
               Read More
@@ -96,7 +96,7 @@ export default function Home() {
           </p>
           <div className="text-center mt-auto">
             <Link 
-              href="/business" 
+               href="/summary#aram-general-trading"
               className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
             >
               Read More
@@ -123,7 +123,7 @@ export default function Home() {
           </p>
           <div className="text-center mt-auto">
             <Link 
-              href="/business" 
+              href="/summary#aram-building-contracting"
               className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
             >
               Read More
@@ -150,7 +150,7 @@ export default function Home() {
           </p>
           <div className="text-center mt-auto">
             <Link 
-              href="/about" 
+              href="/summary#aram-agricultural-services"
               className="inline-block bg-green-900 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
             >
               Read More
