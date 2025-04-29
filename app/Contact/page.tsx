@@ -96,7 +96,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
                     <a
-                      href="tel:+971508824660"
+                      href="mailto:info@aramgroup.com"
                       className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
                       info@aramgroup.com
                     </a>
@@ -114,7 +114,7 @@ export default function Contact() {
                     <a
                       href="tel:+971508824660"
                       className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
-                      +971508824660
+                      +971 50 882 4660
                     </a>
 
                   </div>

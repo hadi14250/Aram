@@ -64,7 +64,7 @@ const Footer = () => {
                   href="tel:+971508824660"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                 >
-                  +971508824660
+                  +971 50 882 4660
                 </a>
               </li>
 
