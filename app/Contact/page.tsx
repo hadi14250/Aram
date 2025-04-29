@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com';
 import Link from 'next/link';
 import Footer from '../components/footer';
 
-export default function contact() {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -65,7 +65,7 @@ export default function contact() {
               <Link href="/about" className="text-gray-600 hover:text-blue-900">About Us</Link>
               <Link href="/business" className="text-gray-600 hover:text-blue-900">Business & Expertise</Link>
               <Link href="/projects" className="text-gray-600 hover:text-blue-900">Projects</Link>
-              <Link href="/contact" className="text-blue-900 font-semibold">Contact</Link>
+              <Link href="/Contact" className="text-blue-900 font-semibold">Contact</Link>
             </nav>
           </div>
         </div>

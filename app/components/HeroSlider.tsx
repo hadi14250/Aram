@@ -87,7 +87,7 @@ const HeroSlider = () => {
                     Read More
                   </Link>
                   <Link 
-                    href="/contact" 
+                    href="/Contact" 
                     className="inline-block bg-green-900 text-white px-4 sm:px-8 py-2 sm:py-4 rounded-lg font-semibold hover:bg-green-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base"
                   >
                     Contact Us

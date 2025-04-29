@@ -382,7 +382,7 @@ export default function Home() {
             Contact us today to discuss your project requirements
           </p>
           <Link
-            href="/contact"
+            href="/Contact"
             className="inline-block bg-white text-green-900 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             Contact Us Today
