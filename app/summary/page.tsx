@@ -117,7 +117,7 @@ export default function Summary() {
                     />
                   </div>
                 </div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Const. and Building Contracting</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Construction</h2>
                 <p className="text-gray-700 mb-6">
                   Civil & Structural Construction – Specializing in building construction, repairs, maintenance, and renovations.
                 </p>
