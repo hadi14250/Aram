@@ -43,14 +43,14 @@ export default function AffiliationsSlider() {
                     className="sponsor-swiper"
                 >
                     {affiliations.map((item, index) => (
-                        <SwiperSlide key={index} className="!w-[400px]">
-                            <div className="sponsor-slide h-[200px] flex items-center justify-center">
+                        <SwiperSlide key={index} className="!w-[120px] sm:!w-[400px]">
+                            <div className="sponsor-slide h-[100px] sm:h-[200px] flex items-center justify-center">
                                 <Image
                                     src={item.src}
                                     alt={item.alt}
-                                    width={400}
-                                    height={200}
-                                    className="object-contain max-h-full"
+                                    width={200}
+                                    height={100}
+                                    className="object-contain max-h-full sm:w-[400px] sm:h-[200px]"
                                 />
                             </div>
                         </SwiperSlide>
