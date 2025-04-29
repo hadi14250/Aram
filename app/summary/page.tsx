@@ -176,20 +176,20 @@ export default function Summary() {
         className="w-full h-full"
         style={{
           backgroundImage: "url('/images/building-contracting.jpeg')",
-          backgroundPosition: "center", // Align the image to center horizontally
-          backgroundSize: "cover", // Ensure the image covers the full height and width
-          height: "100%", // Ensure it spans the full height of its parent container
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          height: "100%",
         }}
       ></div>
     </div>
     <div className="p-8 order-2 md:order-1">
       <div className="flex justify-center mb-6">
-        <div className="w-[250px] h-[250px] bg-white flex items-center justify-center rounded-lg shadow-md">
+        <div className="w-[300px] h-[300px] bg-white flex items-center justify-center rounded-lg shadow-md">
           <Image
             src="/assets/logo/Golden Aram Building Contracting.png"
             alt="Aram Group Logo"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             className="object-contain w-full h-full"
           />
         </div>
