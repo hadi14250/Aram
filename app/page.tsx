@@ -160,14 +160,14 @@ export default function Home() {
               </div>
             </div>
             <div className="relative h-64 sm:h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
-            <Image
-              src="/images/aram_transparent.png"
-              alt="About Aram Group"
-              fill
-              className="object-contain transform hover:scale-105 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent"></div>
-          </div>
+  <Image
+    src="/images/aram_transparent.png"
+    alt="About Aram Group"
+    fill
+    className="object-contain transform hover:scale-105 transition-transform duration-700"
+  />
+</div>
+
 
           </div>
         </div>
