@@ -276,89 +276,88 @@ export default function Home() {
 
     {/* Masonry Layout */}
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {/* Column 1 */}
-      <div className="space-y-6">
-        <div className="group relative overflow-hidden rounded-xl shadow-lg">
-          <div className="relative w-full">
-            <Image
-              src="/assets/porjects/aramprj1.png"
-              alt="Construction Project"
-              width={600}
-              height={400}
-              className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700"
-            />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-            <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-              <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Construction Project</h3>
-              <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Years of experience in construction</p>
-            </div>
-          </div>
-        </div>
+  {/* Column 1 */}
+  <div className="space-y-6 h-full">
+    <div className="group relative overflow-hidden rounded-xl shadow-lg h-full">
+      <div className="relative w-full h-full">
+        <Image
+          src="/assets/porjects/project-1(preview).png"
+          alt="Construction Project"
+          width={600}
+          height={400}
+          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+        />
       </div>
-
-      {/* Column 2 */}
-      <div className="space-y-6">
-        {/* First Image */}
-        <div className="group relative overflow-hidden rounded-xl shadow-lg">
-          <div className="relative w-full">
-            <Image
-              src="/assets/porjects/aramprj8.png"
-              alt="Trading Project"
-              width={600}
-              height={400}
-              className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700"
-            />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-            <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-              <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Trading Project</h3>
-              <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Premium materials and standards</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Second Image - Updated */}
-        <div className="group relative overflow-hidden rounded-xl shadow-lg">
-          <div className="relative w-full">
-            <Image
-              src="/assets/porjects/project-5.png"
-              alt="New Project"
-              width={600}
-              height={400}
-              className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700"
-            />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-            <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-              <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Construction Project</h3>
-              <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Modern Arcitechture</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Column 3 */}
-      <div className="space-y-6">
-        <div className="group relative overflow-hidden rounded-xl shadow-lg">
-          <div className="relative w-full">
-            <Image
-              src="/assets/porjects/aramprj9.png"
-              alt="Agricultural Project"
-              width={600}
-              height={400}
-              className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700"
-            />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-            <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-              <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Agricultural Project</h3>
-              <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Reliable project completion</p>
-            </div>
-          </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+        <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+          <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Construction Project</h3>
+          <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Years of experience in construction</p>
         </div>
       </div>
     </div>
+  </div>
+
+  {/* Column 2 */}
+  <div className="flex flex-col justify-between h-full space-y-6">
+    <div className="group relative overflow-hidden rounded-xl shadow-lg h-full">
+      <div className="relative w-full h-full">
+        <Image
+          src="/assets/porjects/aramprj8.png"
+          alt="Trading Project"
+          width={600}
+          height={400}
+          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+        <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+          <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Trading Project</h3>
+          <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Premium materials and standards</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="group relative overflow-hidden rounded-xl shadow-lg h-full">
+      <div className="relative w-full h-full">
+        <Image
+          src="/assets/porjects/project-5.png"
+          alt="New Project"
+          width={600}
+          height={400}
+          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+        <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+          <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Construction Project</h3>
+          <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Modern Arcitechture</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Column 3 */}
+  <div className="space-y-6 h-full">
+    <div className="group relative overflow-hidden rounded-xl shadow-lg h-full">
+      <div className="relative w-full h-full">
+        <Image
+          src="/assets/porjects/project-8(preview).png"
+          alt="Agricultural Project"
+          width={600}
+          height={400}
+          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+        <div className="text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+          <h3 className="text-white text-lg sm:text-2xl font-bold mb-2">Agricultural Project</h3>
+          <p className="text-green-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Reliable project completion</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <div className="text-center mt-12">
       <a 
