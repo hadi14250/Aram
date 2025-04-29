@@ -98,7 +98,7 @@ export default function Summary() {
       <div
         className="w-full h-full"
         style={{
-          backgroundImage: "url('/images/aram-construction.jpeg')",
+          backgroundImage: "url('/images/sum-info-aram-const.png')",
           backgroundPosition: "center", // Align image to center horizontally
           backgroundSize: "cover", // Ensure the image covers the full height and width
           height: "100%", // Ensure it spans the full height of its parent
@@ -175,7 +175,7 @@ export default function Summary() {
       <div
         className="w-full h-full"
         style={{
-          backgroundImage: "url('/images/building-contracting.jpeg')",
+          backgroundImage: "url('/images/sum-info-aram-contracting.jpeg')",
           backgroundPosition: "center",
           backgroundSize: "cover",
           height: "100%",
