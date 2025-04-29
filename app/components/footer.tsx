@@ -40,7 +40,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6 text-green-400">Contact</h3>
             <ul className="space-y-3 text-gray-400">
             <li className="flex items-center">
-            <Link href="/Contact" className="text-gray-400 hover:text-white transition-colors duration-300">
+            <Link href="/contact" className="text-gray-400 hover:text-white transition-colors duration-300">
                   Contact Us
                 </Link>
               </li>

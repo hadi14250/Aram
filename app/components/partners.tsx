@@ -37,7 +37,7 @@ export default function AffiliationsSlider() {
           slidesPerView="auto"
           loop={true}
           autoplay={{
-            delay: 1,
+            delay: 1500,
             disableOnInteraction: false,
           }}
           className="sponsor-swiper"

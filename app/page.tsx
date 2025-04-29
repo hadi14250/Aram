@@ -17,10 +17,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Summary Information */}
-      <section className="relative -mt-16 sm:-mt-32 z-10">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
+{/* Summary Information */}
+<section className="relative -mt-16 sm:-mt-32 z-10">
+  <div className="max-w-7xl mx-auto px-4 sm:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-14">
       
       {/* Card 1 */}
       <div className="bg-white/90 backdrop-blur-sm p-0 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full overflow-hidden">
@@ -129,6 +129,7 @@ export default function Home() {
     </div>
   </div>
 </section>
+
 
 
       {/* About Section */}
@@ -382,7 +383,7 @@ export default function Home() {
             Contact us today to discuss your project requirements
           </p>
           <Link
-            href="/Contact"
+            href="/contact"
             className="inline-block bg-white text-green-900 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             Contact Us Today

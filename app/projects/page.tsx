@@ -224,7 +224,7 @@ export default function Projects() {
             Let's discuss how we can bring your vision to life
           </p>
           <a
-            href="/Contact"
+            href="/contact"
             className="inline-block bg-[#13492E] text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-green-700 transition-colors"
           >
             Start Your Project
@@ -450,7 +450,7 @@ export default function Projects() {
 //             Let's discuss how we can bring your vision to life
 //           </p>
 //           <a
-//             href="/Contact"
+//             href="/contact"
 //             className="inline-block bg-[#13492E] text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-green-700 transition-colors"
 //           >
 //             Start Your Project

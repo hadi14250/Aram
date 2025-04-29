@@ -46,7 +46,7 @@ const Navigation = () => {
               { href: "/about", label: "About Us" },
               { href: "/business", label: "Business & Expertise" },
               { href: "/projects", label: "Projects" },
-              { href: "/Contact", label: "Contact" },
+              { href: "/contact", label: "contact" },
             ].map(({ href, label }) => (
               <Link 
                 key={href}
@@ -102,7 +102,7 @@ const Navigation = () => {
             { href: "/about", label: "About Us" },
             { href: "/business", label: "Business & Expertise" },
             { href: "/projects", label: "Projects" },
-            { href: "/Contact", label: "Contact" },
+            { href: "/contact", label: "contact" },
           ].map(({ href, label }) => (
             <Link 
               key={href}
