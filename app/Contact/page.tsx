@@ -125,7 +125,7 @@ export default function Contact() {
                       <hr className="border-gray-300" />
 
                       <div>
-                        <p className="text-gray-600">Eng. Muhammad Alzuabi :</p>
+                        <p className="text-gray-600">Eng. Muhammad Alzuabi:</p>
                         <a
                           href="tel:+971555471511"
                           className="text-gray-600 hover:text-gray-800 transition-colors duration-300"
