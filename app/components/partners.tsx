@@ -10,14 +10,17 @@ const affiliations = [
   { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
   { src: "/assets/partners/abu-dhabi-police-logo.png", alt: 'Abu Dhabi police' },
   { src: "/assets/partners/arenco-logo.jpeg", alt: 'arenco logo' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
-  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-government.png", alt: 'Dubai Government' },
+  { src: "/assets/partners/abu-dhabi-gov.png", alt: 'Abu Dhabi' },
+  { src: "/assets/partners/sheraton-logo.png", alt: 'Sheraton Logo' },
+  { src: "/assets/partners/hilton-logo.png", alt: 'Hilton Logo' },
+  { src: "/assets/partners/taj-logo.png", alt: 'Taj Logo' },
+  { src: "/assets/partners/dubai-municipality.svg", alt: 'Dubai Municipality' },
+  { src: "/assets/partners/abu-dhabi-municipality.png", alt: 'Abu Dhabi Municipality' },
+  { src: "/assets/partners/dubai-airports.png", alt: 'Dubai Airports' },
+  { src: "/assets/partners/rta-logo.png", alt: 'RTA Logo' },
+  { src: "/assets/partners/dha-logo.avif", alt: 'DHA Logo' },
+  { src: "/assets/partners/dcas.png", alt: 'DCAS Logo' },
 ];
 
 export default function AffiliationsSlider() {
@@ -34,7 +37,7 @@ export default function AffiliationsSlider() {
           slidesPerView="auto"
           loop={true}
           autoplay={{
-            delay: 1500,
+            delay: 1000,
             disableOnInteraction: false,
           }}
           className="sponsor-swiper"
