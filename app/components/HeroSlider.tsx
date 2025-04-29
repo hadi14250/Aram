@@ -124,9 +124,7 @@ const HeroSlider = () => {
           <button
             key={index}
             onClick={() => handleSlideChange(index)}
-            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide ? 'bg-white scale-125' : 'bg-white/50 hover:bg-white/70'
-            }`}
+            className="sr-only" // This hides the button visually but keeps it accessible
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
