@@ -121,7 +121,7 @@ export default function About() {
               <div className="flex items-start">
                 <div className="relative h-32 w-32 rounded-full overflow-hidden mr-6 flex-shrink-0">
                   <Image
-                    src="/images/services-img5.jpg"
+                    src="/images/management-team.jpeg"
                     alt="Management Team"
                     fill
                     className="object-cover"
