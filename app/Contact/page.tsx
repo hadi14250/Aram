@@ -95,7 +95,11 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">info@aramgroup.com</p>
+                    <a
+                      href="tel:+971508824660"
+                      className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
+                      info@aramgroup.com
+                    </a>
                   </div>
                 </div>
 
@@ -107,7 +111,12 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+1234567890</p>
+                    <a
+                      href="tel:+971508824660"
+                      className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
+                      +971508824660
+                    </a>
+
                   </div>
                 </div>
 
