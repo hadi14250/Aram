@@ -148,41 +148,37 @@ export default function Projects() {
         <div className="flex flex-wrap gap-4 justify-center">
           <button
             onClick={() => setFilter('all')}
-            className={`px-6 py-2 rounded-full ${
-              filter === 'all'
-                ? 'bg-[#13492E] text-white'
-                : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
-            }`}
+            className={`px-6 py-2 rounded-full ${filter === 'all'
+              ? 'bg-[#13492E] text-white'
+              : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+              }`}
           >
             All Projects
           </button>
           <button
             onClick={() => setFilter('commercial')}
-            className={`px-6 py-2 rounded-full ${
-              filter === 'commercial'
-                ? 'bg-[#13492E] text-white'
-                : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
-            }`}
+            className={`px-6 py-2 rounded-full ${filter === 'commercial'
+              ? 'bg-[#13492E] text-white'
+              : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+              }`}
           >
             Commercial
           </button>
           <button
             onClick={() => setFilter('residential')}
-            className={`px-6 py-2 rounded-full ${
-              filter === 'residential'
-                ? 'bg-[#13492E] text-white'
-                : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
-            }`}
+            className={`px-6 py-2 rounded-full ${filter === 'residential'
+              ? 'bg-[#13492E] text-white'
+              : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+              }`}
           >
             Residential
           </button>
           <button
             onClick={() => setFilter('infrastructure')}
-            className={`px-6 py-2 rounded-full ${
-              filter === 'infrastructure'
-                ? 'bg-[#13492E] text-white'
-                : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
-            }`}
+            className={`px-6 py-2 rounded-full ${filter === 'infrastructure'
+              ? 'bg-[#13492E] text-white'
+              : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+              }`}
           >
             Infrastructure
           </button>

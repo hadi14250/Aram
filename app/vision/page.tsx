@@ -11,7 +11,7 @@ export default function VisionPage() {
             Vision
           </Link>
         </div>
-        
+
         <div className="mt-8 space-y-4">
           <Link href="/" className="block text-gray-600 hover:text-green-900">
             Home

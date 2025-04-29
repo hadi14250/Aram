@@ -23,20 +23,20 @@ const Navigation = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 bg-white ${isScrolled ? 'shadow-lg backdrop-blur-sm bg-white/90' : ''}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-        
-        <Link href="/" className="flex items-center">
-          <div className="relative w-20 h-20 sm:w-40 sm:h-40">
-            <Image
-              src="/images/aram_transparent.png"
-              alt="About Us"
-              fill
-              className="object-contain"
-            />
-          </div>
-          <span className="text-base sm:text-2xl font-bold text-green-900 ml-2">
-            {/* Aram Group */}
-          </span>
-        </Link>
+
+          <Link href="/" className="flex items-center">
+            <div className="relative w-20 h-20 sm:w-40 sm:h-40">
+              <Image
+                src="/images/aram_transparent.png"
+                alt="About Us"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <span className="text-base sm:text-2xl font-bold text-green-900 ml-2">
+              {/* Aram Group */}
+            </span>
+          </Link>
 
 
           <div className="hidden md:flex items-center space-x-8">
@@ -48,14 +48,13 @@ const Navigation = () => {
               { href: "/projects", label: "Projects" },
               { href: "/Contact", label: "Contact" },
             ].map(({ href, label }) => (
-              <Link 
+              <Link
                 key={href}
                 href={href}
-                className={`transition-all duration-300 ${
-                  pathname === href 
-                    ? "text-green-900 font-semibold border-b-2 border-green-900" 
-                    : "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700"
-                }`}
+                className={`transition-all duration-300 ${pathname === href
+                  ? "text-green-900 font-semibold border-b-2 border-green-900"
+                  : "text-green-900 hover:text-green-700 hover:border-b-2 hover:border-green-700"
+                  }`}
               >
                 {label}
               </Link>
@@ -88,12 +87,11 @@ const Navigation = () => {
         </div>
       </div>
 
-      <div 
-        className={`md:hidden transition-all duration-300 ease-in-out ${
-          isMobileMenuOpen 
-            ? 'max-h-screen opacity-100' 
-            : 'max-h-0 opacity-0 overflow-hidden'
-        } bg-white shadow-lg`}
+      <div
+        className={`md:hidden transition-all duration-300 ease-in-out ${isMobileMenuOpen
+          ? 'max-h-screen opacity-100'
+          : 'max-h-0 opacity-0 overflow-hidden'
+          } bg-white shadow-lg`}
       >
         <div className="px-4 py-2 space-y-2">
           {[
@@ -104,14 +102,13 @@ const Navigation = () => {
             { href: "/projects", label: "Projects" },
             { href: "/Contact", label: "Contact" },
           ].map(({ href, label }) => (
-            <Link 
+            <Link
               key={href}
               href={href}
-              className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${
-                pathname === href 
-                  ? "bg-green-900 text-white" 
-                  : "text-green-900 hover:bg-green-50 hover:text-green-700"
-              }`}
+              className={`block px-4 py-3 rounded-md text-base font-medium transition-colors duration-300 ${pathname === href
+                ? "bg-green-900 text-white"
+                : "text-green-900 hover:bg-green-50 hover:text-green-700"
+                }`}
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {label}

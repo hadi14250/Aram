@@ -35,8 +35,8 @@ export default function Contact() {
 
     emailjs
       .send(
-        'your_service_id', 
-        'your_template_id', 
+        'your_service_id',
+        'your_template_id',
         templateParams,
         'your_user_id'
       )
