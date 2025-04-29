@@ -7,17 +7,17 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 
 const affiliations = [
-  { src: "/images/services-img1.png", alt: 'Abercrombie' },
-  { src: "/images/services-img1.png", alt: 'Bales' },
-  { src: "/images/services-img1.png", alt: 'Canada Club' },
-  { src: "/images/services-img1.png", alt: 'Gateway' },
-  { src: "/images/services-img1.png", alt: 'Kuoni' },
-  { src: "/images/services-img1.png", alt: 'Saga' },
-  { src: "/images/services-img1.png", alt: 'SCO' },
-  { src: "/images/services-img1.png", alt: 'Sweden Embassy' },
-  { src: "/images/services-img1.png", alt: 'Thompsons' },
-  { src: "/images/services-img1.png", alt: 'Unnamed' },
-  { src: "/images/services-img1.png", alt: 'Wonders' }
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/abu-dhabi-police-logo.png", alt: 'Abu Dhabi police' },
+  { src: "/assets/partners/arenco-logo.jpeg", alt: 'arenco logo' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
+  { src: "/assets/partners/dubai-police-logo.png", alt: 'Dubai police' },
 ];
 
 export default function AffiliationsSlider() {
@@ -40,13 +40,13 @@ export default function AffiliationsSlider() {
           className="sponsor-swiper"
         >
           {affiliations.map((item, index) => (
-            <SwiperSlide key={index} className="!w-[200px]">
-              <div className="sponsor-slide h-[100px] flex items-center justify-center">
+            <SwiperSlide key={index} className="!w-[400px]">
+              <div className="sponsor-slide h-[200px] flex items-center justify-center">
                 <Image
                   src={item.src}
                   alt={item.alt}
-                  width={200}
-                  height={100}
+                  width={400}
+                  height={200}
                   className="object-contain max-h-full"
                 />
               </div>
