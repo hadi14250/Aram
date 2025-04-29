@@ -111,11 +111,30 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                    <a
-                      href="tel:+971508824660"
-                      className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
-                      +971 50 882 4660
-                    </a>
+                    <div className="space-y-4">
+                      <div>
+                        <p className="text-gray-600">Eng. Mahfouz Alhalouch:</p>
+                        <a
+                          href="tel:+971508824660"
+                          className="text-gray-600 hover:text-gray-800 transition-colors duration-300"
+                        >
+                          +971 50 882 4660
+                        </a>
+                      </div>
+
+                      <hr className="border-gray-300" />
+
+                      <div>
+                        <p className="text-gray-600">Eng. Muhammad Alzuabi :</p>
+                        <a
+                          href="tel:+971555471511"
+                          className="text-gray-600 hover:text-gray-800 transition-colors duration-300"
+                        >
+                          +971 55 547 1511
+                        </a>
+                      </div>
+                    </div>
+
 
                   </div>
                 </div>
