@@ -259,9 +259,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        < Partners />
-      </section>
 
       {/* Projects Section */}
       <section className="py-10 sm:py-20">
@@ -370,6 +367,10 @@ export default function Home() {
         </div>
       </section>
 
+      <section>
+        < Partners />
+      </section>
+
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-green-900 to-green-800 text-white relative overflow-hidden">
@@ -391,7 +392,9 @@ export default function Home() {
       </section>
 
       {/* Footer */}
+      <section>
       <Footer />
+      </section>
     </div>
   );
 }
