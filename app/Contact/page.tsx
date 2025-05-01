@@ -71,14 +71,19 @@ export default function Contact() {
         </div>
       </header>
 
-      <section className="py-16 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-16 bg-green-900 text-white">
+        {/* Pattern Background */}
+        <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10 bg-cover bg-center pointer-events-none"></div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Get in touch with us for any inquiries or collaboration opportunities
           </p>
         </div>
       </section>
+
 
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

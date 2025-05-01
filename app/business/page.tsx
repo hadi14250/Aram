@@ -37,8 +37,12 @@ export default function Business() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-16 bg-green-900 text-white overflow-hidden">
+        {/* Pattern Background */}
+        <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10 bg-cover bg-center pointer-events-none"></div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Our Business & Expertise
           </h1>
@@ -47,6 +51,7 @@ export default function Business() {
           </p>
         </div>
       </section>
+
 
       {/* Business Content */}
       <section className="py-16">
@@ -181,8 +186,12 @@ export default function Business() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-16 bg-green-900 text-white overflow-hidden">
+        {/* Pattern Background */}
+        <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10 bg-cover bg-center pointer-events-none"></div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Ready to Work With Us?
           </h2>
@@ -197,6 +206,7 @@ export default function Business() {
           </Link>
         </div>
       </section>
+
 
       {/* Footer */}
       <Footer />

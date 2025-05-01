@@ -37,8 +37,12 @@ export default function About() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-16 bg-green-900 text-white overflow-hidden">
+        {/* Pattern Background */}
+        <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10 bg-cover bg-center pointer-events-none"></div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             About Us
           </h1>
@@ -141,37 +145,41 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Want to Learn More?
-          </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Explore our business expertise, projects, and vision to get a complete picture of what we offer.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/business"
-              className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
-            >
-              Business & Expertise
-            </Link>
-            <Link
-              href="/projects"
-              className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
-            >
-              Projects
-            </Link>
-            <Link
-              href="/#vision"
-              className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
-            >
-              Vision & Mission
-            </Link>
+      <section className="relative py-16 bg-green-900 text-white overflow-hidden">
+  {/* Pattern Background */}
+  <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10 bg-cover bg-center pointer-events-none"></div>
 
-          </div>
-        </div>
+  {/* Content */}
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-3xl font-bold mb-6">
+      Want to Learn More?
+    </h2>
+    <p className="text-xl mb-8 max-w-3xl mx-auto">
+      Explore our business expertise, projects, and vision to get a complete picture of what we offer.
+    </p>
+    <div className="flex flex-wrap justify-center gap-4">
+      <Link
+        href="/business"
+        className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+      >
+        Business & Expertise
+      </Link>
+      <Link
+        href="/projects"
+        className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+      >
+        Projects
+      </Link>
+      <Link
+        href="/#vision"
+        className="inline-block bg-white text-green-900 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+      >
+        Vision & Mission
+      </Link>
+    </div>
+  </div>
       </section>
+
       {/* Footer */}
       <Footer />
     </div>

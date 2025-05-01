@@ -37,16 +37,21 @@ export default function Summary() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Summary Information
-          </h1>
-          <p className="text-xl max-w-3xl mx-auto">
-            An overview of Aram Group's divisions and their core services
-          </p>
-        </div>
-      </section>
+      <section className="relative py-16 bg-green-900 text-white overflow-hidden">
+  {/* Pattern Background */}
+  <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10 bg-cover bg-center pointer-events-none"></div>
+
+      {/* Text Content */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          Summary Information
+        </h1>
+        <p className="text-xl max-w-3xl mx-auto">
+          An overview of Aram Group's divisions and their core services
+        </p>
+      </div>
+    </section>
+
 
       {/* Summary Content */}
       <section className="py-16">
@@ -248,22 +253,27 @@ export default function Summary() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Explore Our Services
-          </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Learn more about our comprehensive range of services and how we can help with your next project.
-          </p>
-          <Link
-            href="/business"
-            className="inline-block bg-white text-green-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
-          >
-            View Our Business & Expertise
-          </Link>
-        </div>
-      </section>
+      <section className="relative py-16 bg-green-900 text-white overflow-hidden">
+  {/* Pattern Background */}
+  <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10 bg-cover bg-center pointer-events-none"></div>
+
+  {/* Content */}
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-3xl font-bold mb-6">
+      Explore Our Services
+    </h2>
+    <p className="text-xl mb-8 max-w-3xl mx-auto">
+      Learn more about our comprehensive range of services and how we can help with your next project.
+    </p>
+    <Link
+      href="/business"
+      className="inline-block bg-white text-green-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
+    >
+      View Our Business & Expertise
+    </Link>
+  </div>
+</section>
+
 
       {/* Footer */}
       <Footer />
