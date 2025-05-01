@@ -270,7 +270,7 @@ export default function Projects() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-[#0F492B]">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex justify-between text-sm text-gray-500">
                   <span>{project.location}</span>
