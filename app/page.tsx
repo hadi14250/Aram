@@ -18,7 +18,8 @@ export default function Home() {
       </section>
 
       {/* Summary Information */}
-      <section className="relative -mt-16 sm:-mt-32 z-10">
+      <section className="relative mt-4 sm:-mt-16 md:-mt-24 lg:-mt-32 z-10">
+
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-14">
 
