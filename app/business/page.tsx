@@ -70,7 +70,7 @@ export default function Business() {
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Construction</h2>
                 <p className="text-gray-700 mb-6">
-                Our civil and structural construction services cover a wide range of essential infrastructure and building solutions. We handle projects from concept to completion—building and constructing facilities from A to Z. From laying foundations to delivering fully functional structures, we serve both public and private sector clients across the UAE with a commitment to safety, durability, and efficiency.
+                Our civil and structural construction services encompass a full spectrum of essential infrastructure and building solutions. We oversee every phase of the project lifecycle—handling construction from the ground up with precision and reliability. From groundwork and foundations to the final handover of fully operational structures, we proudly serve both public and private sector clients across the UAE, maintaining the highest standards of safety, durability, and efficiency.
                 </p>
                 <h3 className="text-xl font-bold text-green-900 mb-4">Our Services</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
