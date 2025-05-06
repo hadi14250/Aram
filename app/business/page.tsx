@@ -70,14 +70,12 @@ export default function Business() {
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Construction</h2>
                 <p className="text-gray-700 mb-6">
-                  Civil & Structural Construction – Specializing in building construction, repairs, maintenance, and renovations.
-                </p>
-                <p className="text-gray-700 mb-6">
-                  Our civil and structural construction services cover a wide range of essential infrastructure and building solutions. We specialize in creating durable, safe, and efficient structures—from foundations to full-scale systems—serving both public and private sector projects across the UAE.
+                Our civil and structural construction services cover a wide range of essential infrastructure and building solutions. We handle projects from concept to completion—building and constructing facilities from A to Z. From laying foundations to delivering fully functional structures, we serve both public and private sector clients across the UAE with a commitment to safety, durability, and efficiency.
                 </p>
                 <h3 className="text-xl font-bold text-green-900 mb-4">Our Services</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                  <li>Complete buildings construction, repair, maintenance, and renovation</li>
+                <li>Complete buildings construction, repair, maintenance, and renovation</li>
+                  <li>End-to-end project execution from design to handover</li>
                   <li>Drainage, sewage, and water system infrastructure</li>
                   <li>Earthwork, site preparation, and land clearing</li>
                   <li>Foundation and piling works</li>
@@ -95,17 +93,18 @@ export default function Business() {
               <div className="p-8 order-2 md:order-1">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line General Trading</h2>
                 <p className="text-gray-700 mb-6">
-                  General Trading – Delivering quality products and tailored solutions across diverse industries, building trusted connections and ensuring reliable service every step of the way.
+                Supplying quality products and tailored solutions across industries, with reliable service and trusted partnerships.
                 </p>
                 <p className="text-gray-700 mb-6">
-                  Our trading division connects markets and delivers value to clients across various sectors. We source high-quality products and provide tailored solutions to meet the specific needs of our clients.
+                We work with both public and private sectors, including municipalities, health facilities, and government entities. Our trading services cover sourcing, procurement, and contracting, delivering value through dependable supply and industry-specific solutions.
                 </p>
                 <h3 className="text-xl font-bold text-green-900 mb-4">Our Approach</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                  <li>Market research and product sourcing</li>
-                  <li>Quality assurance and verification</li>
+                  <li>Product sourcing and market research</li>
+                  <li>Quality assurance</li>
                   <li>Logistics and supply chain management</li>
-                  <li>Customized solutions for specific industry needs</li>
+                  <li>Industry-specific solutions</li>
+                  <li>Contracting and procurement</li>
                   <li>Long-term partnership development</li>
                 </ul>
               </div>
@@ -157,10 +156,10 @@ export default function Business() {
               <div className="p-8 order-2 md:order-1">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line Agricultural Services</h2>
                 <p className="text-gray-700 mb-6">
-                  Agricultural Services – Providing reliable support and innovative solutions for farming and agribusiness, focused on productivity, sustainability, and complete client satisfaction.
+                Providing reliable support and innovative solutions for farming and agribusiness, focused on productivity, sustainability, and complete client satisfaction.
                 </p>
                 <p className="text-gray-700 mb-6">
-                  Our agricultural services division is dedicated to enhancing outdoor environments through sustainable landscaping, expert plant care, and creative floral solutions. We deliver tailored green space solutions for both commercial and residential projects with a focus on aesthetics, function, and long-term care.
+                Our agricultural services division enhances outdoor environments through sustainable landscaping, expert plant care, and creative floral solutions. We proudly work with municipalities and currently hold ongoing landscaping contracts across the Emirates. Our tailored green space solutions serve both commercial and residential projects, emphasizing aesthetics, functionality, and long-term care.
                 </p>
                 <h3 className="text-xl font-bold text-green-900 mb-4">Our Services</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
