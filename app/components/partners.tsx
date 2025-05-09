@@ -29,7 +29,6 @@ const reverseAffiliations = [
     { src: "/assets/partners/emirates-palace.png", alt: 'emirates-palace' },
     { src: "/assets/partners/med-care.png", alt: 'med-care' },
     { src: "/assets/partners/american-hosp.png", alt: 'american-hosp' },
-    { src: "/assets/partners/djs.jpeg", alt: 'djs' },
     { src: "/assets/partners/Dubai-Courts.png", alt: 'Dubai-Courts' },
     { src: "/assets/partners/public-prosecution.png", alt: 'public-prosecution' },
     { src: "/assets/partners/Al-Garhoud-Hospital.png", alt: 'Al-Garhoud-Hospital' },
