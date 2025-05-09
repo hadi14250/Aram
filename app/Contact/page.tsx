@@ -35,10 +35,10 @@ export default function Contact() {
 
     emailjs
       .send(
-        'your_service_id',
-        'your_template_id',
+        'service_23fip24',
+        'template_9tkafrr',
         templateParams,
-        'your_user_id'
+        'CaWXgX77|Kqd6bHX3'
       )
       .then(
         () => {
