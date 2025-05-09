@@ -38,7 +38,7 @@ export default function Contact() {
         'service_23fip24',
         'template_9tkafrr',
         templateParams,
-        'CaWXgX77|Kqd6bHX3'
+        'CaWXgX77lKqd6bHX3'
       )
       .then(
         () => {
