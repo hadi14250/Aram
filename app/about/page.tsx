@@ -55,28 +55,42 @@ export default function About() {
       {/* About Content */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
-              <p className="text-gray-700 mb-6">
-                Since 2006, Aram Construction L.L.C has carried out numerous contracting projects across various fields, especially in construction infrastructure works, which have fostered strong relationships with clients through trust, satisfaction, and consistent quality.
-              </p>
-              <p className="text-gray-700 mb-6">
-                Over the years, Aram Construction has become a trusted name in contracting, guided by its Founder & Owner, Eng. Mohamad Alhalouch, who brings long-term experience earned through dedication and hard work throughout the United Arab Emirates.
-              </p>
-              <p className="text-gray-700">
-                With a solid foundation of success, Eng. Mohamad Alhalouch expanded his vision beyond construction, growing the company's reach into contracting, agricultural services, and general trading. This diversification reflects our commitment to delivering excellence, innovation, and value across all sectors we serve.
-              </p>
-            </div>
-            <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image
-                src="/images/background.jpg"
-                alt="Aram Group Office"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+  <div>
+    <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+    <p className="text-gray-700 mb-6">
+      Since 2006, Aram Construction L.L.C has carried out numerous contracting projects across various fields, especially in construction infrastructure works, which have fostered strong relationships with clients through trust, satisfaction, and consistent quality.
+    </p>
+    <p className="text-gray-700 mb-6">
+      Over the years, Aram Construction has become a trusted name in contracting, guided by its Founder & Owner, Eng. Mohamad Alhalouch, who brings long-term experience earned through dedication and hard work throughout the United Arab Emirates.
+    </p>
+    <p className="text-gray-700">
+      With a solid foundation of success, Eng. Mohamad Alhalouch expanded his vision beyond construction, growing the company's reach into contracting, agricultural services, and general trading. This diversification reflects our commitment to delivering excellence, innovation, and value across all sectors we serve.
+    </p>
+  </div>
+  <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
+    <Image
+      src="/images/background.jpg"
+      alt="Aram Group Office"
+      fill
+      className="object-cover"
+    />
+  </div>
+</div>
+
+{/* New diagram section under the above
+<div className="mb-16 text-center">
+  <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Organisational Chart</h3>
+  <div className="relative w-full max-w-4xl h-[500px] mx-auto rounded-lg overflow-hidden shadow-xl">
+    <Image
+      src="/images/aram-diagram.png"
+      alt="Organisational Chart"
+      fill
+      className="object-contain"
+    />
+  </div>
+</div> */}
+
 
           <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Values</h2>

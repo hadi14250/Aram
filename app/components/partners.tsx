@@ -28,7 +28,6 @@ const affiliations = [
 const reverseAffiliations = [
     { src: "/assets/partners/emirates-palace.png", alt: 'emirates-palace' },
     { src: "/assets/partners/med-care.png", alt: 'med-care' },
-    { src: "/assets/partners/al-nasr.png", alt: 'al-nasr' },
     { src: "/assets/partners/american-hosp.png", alt: 'american-hosp' },
     { src: "/assets/partners/djs.jpeg", alt: 'djs' },
     { src: "/assets/partners/Dubai-Courts.png", alt: 'Dubai-Courts' },
