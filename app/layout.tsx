@@ -5,9 +5,13 @@ import Navigation from "./components/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// 👉 Replace the values below with your own title and image path
 export const metadata: Metadata = {
-  title: "Construction Company",
-  description: "Professional construction and development services",
+  title: "Aram Group", // e.g., "My Awesome Website"
+  description: "Aram Group of companies",
+  icons: {
+    icon: "/images/aram_transparent.png", // e.g., "/favicon.ico" or "/logo.png"
+  },
 };
 
 export default function RootLayout({
