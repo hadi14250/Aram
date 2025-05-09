@@ -101,9 +101,9 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
                     <a
-                      href="mailto:info@aramgroup.com"
+                      href="mailto:contact@aram-group.ae"
                       className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
-                      info@aramgroup.com
+                      contact@aram-group.ae
                     </a>
                   </div>
                 </div>
