@@ -52,6 +52,20 @@ export default function About() {
         </div>
       </section>
 
+{/* New diagram section under the above */}
+<div className="mb-16 text-center">
+  <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Organisational Chart</h3>
+  <div className="relative w-full max-w-4xl h-[500px] mx-auto">
+    <Image
+      src="/images/diagram.png"
+      alt="Organisational Chart"
+      fill
+      className="object-contain"
+    />
+  </div>
+</div>
+
+
       {/* About Content */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -78,18 +92,6 @@ export default function About() {
   </div>
 </div>
 
-{/* New diagram section under the above
-<div className="mb-16 text-center">
-  <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Organisational Chart</h3>
-  <div className="relative w-full max-w-4xl h-[500px] mx-auto rounded-lg overflow-hidden shadow-xl">
-    <Image
-      src="/images/aram-diagram.png"
-      alt="Organisational Chart"
-      fill
-      className="object-contain"
-    />
-  </div>
-</div> */}
 
 
           <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
