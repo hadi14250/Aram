@@ -55,19 +55,6 @@ export default function Contact() {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-900">
-              Aram Group
-            </Link>
-            <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-600 hover:text-blue-900">Home</Link>
-              <Link href="/summary" className="text-gray-600 hover:text-blue-900">Summary Information</Link>
-              <Link href="/about" className="text-gray-600 hover:text-blue-900">About Us</Link>
-              <Link href="/business" className="text-gray-600 hover:text-blue-900">Business & Expertise</Link>
-              <Link href="/projects" className="text-gray-600 hover:text-blue-900">Projects</Link>
-              <Link href="/Contact" className="text-blue-900 font-semibold">Contact</Link>
-            </nav>
-          </div>
         </div>
       </header>
 
