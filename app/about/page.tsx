@@ -55,12 +55,14 @@ export default function About() {
 {/* New diagram section under the above */}
 <div className="mb-16 text-center">
   <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Organisational Chart</h3>
-  <div className="relative w-full max-w-4xl h-[500px] mx-auto">
+  <div className="relative w-full max-w-4xl mx-auto">
     <Image
       src="/images/diagram.png"
       alt="Organisational Chart"
-      fill
-      className="object-contain"
+      layout="intrinsic" // Use intrinsic to maintain aspect ratio
+      width={800}       // Adjust width based on your design
+      height={600}      // Adjust height based on your design
+      className="object-contain w-full h-auto"
     />
   </div>
 </div>
