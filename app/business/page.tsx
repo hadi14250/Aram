@@ -68,10 +68,13 @@ export default function Business() {
               <div className="p-8 order-2 md:order-1">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Aram Golden Line General Trading</h2>
                 <p className="text-gray-700 mb-6">
-                Supplying quality products and tailored solutions across industries, with reliable service and trusted partnerships.
+                Delivering quality products and tailored solutions across multiple industries, backed by reliable service and trusted partnerships.
                 </p>
                 <p className="text-gray-700 mb-6">
-                We work with both public and private sectors, including municipalities, health facilities, and government entities. Our trading services cover sourcing, procurement, and contracting, delivering value through dependable supply and industry-specific solutions.
+                We proudly serve both public and private sectors, including municipalities, healthcare facilities, and government entities. Our trading services span sourcing, procurement, and contracting—ensuring value through dependable supply and industry-specific expertise.
+                </p>
+                <p className="text-gray-700 mb-6">
+                Recently, we have expanded our operations to London, broadening our reach and enhancing our ability to meet the evolving needs of our growing client base worldwide.
                 </p>
                 <h3 className="text-xl font-bold text-green-900 mb-4">Our Approach</h3>
                 <ul className="list-disc pl-5 text-gray-700 space-y-2">
